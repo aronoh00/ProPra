@@ -1,0 +1,33 @@
+Script started on 2024-04-29 22:42:00+02:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="157" LINES="45"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m22:42:00 [44m 247 [40m
+$ ls
+[?2004lMarkdown.md  README.md	shellprompt.md	typescript  Zeiterfassung.md
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m22:42:04 [44m 248 [40m
+$ uptime
+[?2004l 22:42:14 up  9:50,  0 user,  load average: 0.09, 0.04, 0.01
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m22:42:14 [44m 249 [40m
+$ whoami
+[?2004laron
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m22:42:19 [44m 250 [40m
+$ uname -a
+[?2004lLinux DESKTOP-K02S42U 5.15.146.1-microsoft-standard-WSL2 #1 SMP Thu Jan 11 04:09:03 UTC 2024 x86_64 GNU/Linux
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m22:42:38 [44m 252 [40m
+$ cat /etx[Kc/os-release
+[?2004lPRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+NAME="Debian GNU/Linux"
+VERSION_ID="12"
+VERSION="12 (bookworm)"
+VERSION_CODENAME=bookworm
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m22:43:08 [44m 253 [40m
+$ python -V;p[K pip -V
+[?2004lPython 3.11.2
+pip 23.0.1 from /usr/lib/python3/dist-packages/pip (python 3.11)
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m22:43:23 [44m 254 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-04-29 22:43:29+02:00 [COMMAND_EXIT_CODE="0"]
