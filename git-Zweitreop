@@ -1,0 +1,12 @@
+Script started on 2024-05-10 14:24:16+02:00 [TERM="xterm-256color" TTY="/dev/pts/20" COLUMNS="157" LINES="48"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws [0;37m14:24:16 [44m 348 [40m
+$ git cl[K[Kclone [7mhttps://git.imp.fu-berlin.de/aronoh00/propra-scratch.git[27m[C[C[C[C[C[C[C[C[C[C[C[Chttps://git.imp.fu-berlin.de/aronoh00/propra-scratch.git
+[?2004lCloning into 'propra-scratch'...
+Username for 'https://git.imp.fu-berlin.de': aronoh00
+Password for 'https://aronoh00@git.imp.fu-berlin.de': 
+warning: You appear to have cloned an empty repository.
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws [0;37m14:24:42 [44m 349 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-05-10 14:24:50+02:00 [COMMAND_EXIT_CODE="0"]
