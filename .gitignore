@@ -1,1 +1,2 @@
-*.[oa]
+__pycache__/
+*.py[cod]
