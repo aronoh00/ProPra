@@ -1,0 +1,22 @@
+Script started on 2024-05-11 11:40:31+02:00 [TERM="xterm-256color" TTY="/dev/pts/20" COLUMNS="157" LINES="48"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m11:40:31 [44m 386 [40m
+$ exit[C[Cgit -P show HEAD[C[C[C[C[C[Clog[Kstatusadd git-Zweitreop [C[C[C[C[C[Ccommit -m "%git-Zweitrepo 0.25h"[C[Cls[Kmv ~/ws/propra/typescript ~/ws/propra/git-Zweitreop[C[Cnano typescript [K[C[Cls[Kcd propra[C[Cls[Kmv ~/ws/typescript ~/ws/propra[C[C[14Pnano typescript [C[Cls[Kscript[C[C[4Plscd ~/ws[C[Cls[Krm typescript [C[Cls[Kscript[C[Cgit commit -m "%git-Funktionsweise 0.75h"[C[Cscript[K[C[C[4Plsrm typescript [C[Cls[Kcd ~/ws[C[Cls[Kscript[C[C[4Plsnano typescript [C[Cmv ~/ws/typescript ~/ws/propra[C[Cls[Kcd propra[C[Cls[Knano typescript [C[Cmv ~/ws/propra/typescript ~/ws/propra/git-Zweitreop[C[Cls[Kgit commit -m "%git-Zweitrepo 0.25h"[C[C[C[C[C[C[14Padd git-Zweitreop [C[C[C[C[C[C[12Pstatus[3Plog-P show HEAD[C[Cexit[K[C[C[Kexit[C[Cgit -P show HEAD[C[C[C[C[C[Clog[Kstatus[3Plog-P show HEAD
+[?2004l[33mcommit c32b948723bf87a774f6daf5fe58262ff7e91b24[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Aron Huth <aronoh00@zedat.fu-berlin.de>
+Date:   Sat May 11 11:40:02 2024 +0200
+
+    .gitignore angepasst
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex 8862c08..43ae0e2 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -1 +1,2 @@[m
+[31m-*.[oa][m
+[32m+[m[32m__pycache__/[m
+[32m+[m[32m*.py[cod][m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m11:40:56 [44m 387 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-05-11 11:41:04+02:00 [COMMAND_EXIT_CODE="0"]
