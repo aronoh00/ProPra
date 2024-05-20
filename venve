@@ -1,0 +1,32 @@
+Script started on 2024-05-20 17:04:25+02:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="141" LINES="25"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m17:04:25 [44m 491 [40m
+
+$ which python
+[?2004l
+/usr/bin/python
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m17:04:31 [44m 492 [40m
+
+$ source ~venv/[K[K[K[K[K/venve[K/propra/bin/activate
+[?2004l
+[?2004h(propra) [0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m17:05:19 [44m 493 [40m
+
+$ which python
+[?2004l
+/home/aron/venv/propra/bin/python
+
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m17:16:25 [44m 491 [40m
+
+$ init_propra
+[?2004l
+[?2004h(propra) [0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m17:16:40 [44m 492 [40m
+
+$ which prop[K[K[Kython
+[?2004l
+/home/aron/venv/propra/bin/python
+[?2004h(propra) [0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m17:16:57 [44m 493 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-05-20 17:11:51+02:00 [COMMAND_EXIT_CODE="0"]
