@@ -1,0 +1,84 @@
+Script started on 2024-05-20 15:29:56+02:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="141" LINES="23"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m15:29:56 [44m 490 [40m
+
+$ ls
+[?2004l
+Git101		       git-Zweitreop	       Markdown.md		Shell-Grundlagen2.md  student.yaml	typescript
+git-Funktionsweise.md  Kommandoprotokolle.txt  RequiresAssumes.md	Shell-Grundlagen.md   submission.yaml	Zeiterfassung.md
+git-ignore	       Manpages.md	       Schwierigkeitsstufen.md	Shellprompt.md	      Themenauswahl.md
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m15:30:51 [44m 491 [40m
+
+$ ls -l
+[?2004l
+total 64
+drwxr-xr-x 2 aron aron 4096 Apr 30 21:51 Git101
+-rw-r--r-- 1 aron aron 1269 May 10 14:05 git-Funktionsweise.md
+drwxr-xr-x 2 aron aron 4096 May 11 12:03 git-ignore
+-rw-r--r-- 1 aron aron  772 May 10 14:24 git-Zweitreop
+-rw-r--r-- 1 aron aron 1591 Apr 29 22:46 Kommandoprotokolle.txt
+-rw-r--r-- 1 aron aron  352 May 19 17:16 Manpages.md
+-rw-r--r-- 1 aron aron  348 Apr 26 02:26 Markdown.md
+-rw-r--r-- 1 aron aron   93 Apr 30 22:14 RequiresAssumes.md
+-rw-r--r-- 1 aron aron  491 May  1 13:09 Schwierigkeitsstufen.md
+-rw-r--r-- 1 aron aron  998 May 20 13:56 Shell-Grundlagen2.md
+-rw-r--r-- 1 aron aron 1354 May 20 12:42 Shell-Grundlagen.md
+-rw-r--r-- 1 aron aron  241 Apr 29 21:39 Shellprompt.md
+-rw-r--r-- 1 aron aron  194 Apr 30 16:47 student.yaml
+-rw-r--r-- 1 aron aron    3 May 19 16:08 submission.yaml
+-rw-r--r-- 1 aron aron 1560 May  6 21:33 Themenauswahl.md
+-rw-r--r-- 1 aron aron    0 May 20 15:29 typescript
+-rw-r--r-- 1 aron aron  413 Apr 29 22:09 Zeiterfassung.md
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m15:31:24 [44m 492 [40m
+
+$ mkdir mydir
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m15:31:55 [44m 493 [40m
+
+$ cd mydir
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/mydir [0;37m15:32:06 [44m 494 [40m
+
+$ touch myfilde1
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/mydir [0;37m15:32:34 [44m 495 [40m
+
+$ ma[Kv ~/ws/propra/ma[Kydir/myfilde1 ~/ws/propra/
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/mydir [0;37m15:34:35 [44m 496 [40m
+
+$ mv ~/ws/propra/mydir/myfilde1 ~/ws/propra/[1P[C[1P[1@c[1@p[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/mydir [0;37m15:39:14 [44m 497 [40m
+
+$ cp ~/ws/propra/mydir/myfilde1 ~/ws/propra
+[C[Cmv ~/ws/propra/mydir/myfilde1 ~/ws/propra//[Kmydir/M[Kmyfilde1 [K[K2
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/mydir [0;37m15:40:29 [44m 498 [40m
+
+$ cd..[K[K ..
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m15:41:18 [44m 499 [40m
+
+$ mkdir mydir2
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m15:42:11 [44m 500 [40m
+
+$ mv ~/ws/propra/mydir/* ~/ws/propra/mydir1[K2
+[?2004l
+
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m15:56:37 [44m 502 [40m
+
+$ rm [Kdir mydir
+[?2004l
+
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m16:02:08 [44m 508 [40m
+
+$ (cd ~/rm[K[Kws/propra/mydir2 ; rm *) && rmdir mydir2
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m16:06:14 [44m 509 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-05-20 16:06:32+02:00 [COMMAND_EXIT_CODE="0"]
