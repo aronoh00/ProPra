@@ -1,0 +1,23 @@
+Script started on 2024-05-20 17:48:29+02:00 [TERM="xterm-256color" TTY="/dev/pts/12" COLUMNS="141" LINES="22"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m17:48:29 [44m 491 [40m
+$ [7mpython -c "import colorama as c; print('Ich bin ein' + c.Fore.RED + ' rotes ' + c.Style.RESET_ALL + 'Wort')"[27m[C[Cpython -c "import colorama as c; print('Ich bin ein' + c.Fore.RED + ' rotes ' + c.Style.RESET_ALL + 'Wort')"
+[?2004lIch bin ein[31m rotes [0mWort
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m17:48:33 [44m 492 [40m
+$ pip freeze
+[?2004lcolorama==0.4.4
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m17:49:26 [44m 493 [40m
+$ pip uninstall cl[Kolorama
+[?2004lFound existing installation: colorama 0.4.6
+Uninstalling colorama-0.4.6:
+  Would remove:
+    /home/aron/venv/propra/lib/python3.11/site-packages/colorama-0.4.6.dist-info/*
+    /home/aron/venv/propra/lib/python3.11/site-packages/colorama/*
+Proceed (Y/n)? y
+  Successfully uninstalled colorama-0.4.6
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m17:53:01 [44m 494 [40m
+$ pip freeze
+[?2004l[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m17:53:11 [44m 495 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-05-20 17:53:20+02:00 [COMMAND_EXIT_CODE="0"]
