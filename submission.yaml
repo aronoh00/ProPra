@@ -1,8 +1,8 @@
-IDEWindows: CHECK
-Manpages: CHECK
-Python-Variablen: CHECK
-Shell-Grundlagen: CHECK
-Shell-Grundlagen2: CHECK
-Umgang-mit-Verzeichnissen: CHECK
-pip: CHECK
-venv: CHECK
+IDEWindows: ACCEPT
+Manpages: ACCEPT
+Python-Variablen: ACCEPT
+Shell-Grundlagen: ACCEPT
+Shell-Grundlagen2: ACCEPT
+Umgang-mit-Verzeichnissen: ACCEPT
+pip: ACCEPT
+venv: ACCEPT
