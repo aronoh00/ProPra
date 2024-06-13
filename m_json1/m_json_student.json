@@ -1,0 +1,27 @@
+{
+    "Student1": {
+        "Name" : "Max",
+        "Fächer" : ["Softwaretechnik", "Lineare Algebra", "Programmierpraktikum"],
+        "Lieblingsfach" : "Programmierpraktikum",
+        "Lieblingsprogrammiersprache" : "Python",
+        "Vorlesungszeiten" : {
+            "Softwaretechnik" : {
+                "Montag" : "10:00 - 12:00",
+                "Mittwoch" : "10:00 - 12:00"
+            },
+            "Lineare Algebra" : {
+                "Dienstag" : "14:00 - 16:00",
+                "Donnerstag" : "14:00 - 16:00"
+            },
+            "Programmierpraktikum" : null
+            },
+        "Wunschnoten" : {
+            "Softwaretechnik" : 1.3,
+            "Lineare Algebra" : 2.7
+        }
+    },
+    "Student2" :{
+        "Name" : "Anna"
+    }
+}
+
