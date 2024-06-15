@@ -17,12 +17,13 @@ print ("geparste Zeit: ", datum_objekt)
 
 b_Zeit = dt.datetime.now(zoneinfo.ZoneInfo("Europe/Berlin"))
 c_Zeit = dt.datetime.now(zoneinfo.ZoneInfo("America/Caracas"))
+utc_Zeit = dt.datetime.now(dt.timezone.utc)
 
 print ("Berliner Zeit: ", b_Zeit)
 print ("Caracas Zeit: ", c_Zeit)
 
 zeitdifferenz_berlin = b_Zeit.utcoffset()
-zeitdifferenz_caracas = c_Zeit.utcoffset()
+zeitdifferenz_caracas = utc_Zeit.utcoffset() - c_Zeit.utcoffset()
 
 print ("Zeitdifferenz zur UTC Berlin: ", zeitdifferenz_berlin)
 print ("Zeitdifferenz zur UTC Caracas: ", zeitdifferenz_caracas)
