@@ -1,8 +1,5 @@
-IDEWindows: ACCEPT
-Manpages: ACCEPT
-Python-Variablen: ACCEPT
-Shell-Grundlagen: ACCEPT
-Shell-Grundlagen2: ACCEPT
-Umgang-mit-Verzeichnissen: ACCEPT
-pip: ACCEPT
-venv: ACCEPT
+encoding_and_open: CHECK
+m_datetime: CHECK
+m_json1: CHECK
+m_os.path: CHECK
+m_random: CHECK
