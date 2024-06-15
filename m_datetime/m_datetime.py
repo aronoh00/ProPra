@@ -32,7 +32,6 @@ caracas_neu = c_Zeit + diff
 
 print ("Caracas Zeit in 1024 Tagen und 512 Minuten: ", caracas_neu)
 
-
 def time_average(logs: list[tuple[str, int, str]]) -> dt.timedelta:
     start = {}
     diffs = []
