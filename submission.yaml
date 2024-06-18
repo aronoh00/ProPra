@@ -1,4 +1,4 @@
-encoding_and_open: CHECK
+encoding_and_open: ACCEPT
 m_datetime: CHECK
 m_json1: CHECK
 m_os.path: CHECK
