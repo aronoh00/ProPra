@@ -1,5 +1,5 @@
 encoding_and_open: ACCEPT
-m_datetime: CHECK
-m_json1: CHECK
-m_os.path: CHECK
-m_random: CHECK
+m_datetime: ACCEPT
+m_json1: ACCEPT
+m_os.path: REJECT
+m_random: ACCEPT
