@@ -1,21 +1,21 @@
-Script started on 2024-06-13 15:47:31+02:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="117" LINES="9"]
-[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_os.path [0;37m15:47:31 [44m 492 [40m
-$ python m_os_path.py
+Script started on 2024-07-02 19:21:03+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="125" LINES="18"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_os.path [0;37m19:21:03 [44m 501 [40m
+$ python m_os_path.py 
 [?2004lhome directory:  /home/aron
 home directory exists:  True
-home directory content:  ['.ssh', '.python_history', '..bashrc.swp', '.docker', '.sudo_as_admin_successful', '.gitconfig', 'venv', '.bash_logout', '.vscode-server', '.dotnet', '.wget-hsts', '.vscode-remote-containers', '.bash_history', '.gnupg', '.bashrc', 'ws', '.aws', '.local', '.lesshst', '.azure', '.profile', '.cache']
-an entry in the home directory:  /home/aron/..bashrc.swp
+home directory content:  ['.ssh', '.python_history', '.docker', '.sudo_as_admin_successful', '.gitconfig', 'venv', '.bash_logout', '.vscode-server', '.dotnet', '.wget-hsts', '.vscode-remote-containers', '.bash_history', '.gnupg', '.bashrc', 'ws', '.aws', '.local', '.lesshst', '.azure', '.profile', '.cache']
+an entry in the home directory:  /home/aron/.docker
 number of directories:  12
-number of files:  10
+number of files:  9
 biggist file:  /home/aron/.bash_history
 last created file:  /home/aron/.bash_history
 last changed file:  /home/aron/.bash_history
-most common extension:  None
+most common extension: "" 
 relative path from home to cwd:  ws/propra/m_os.path
 path from home to cwd and back:  /home/aron/ws/propra/m_os.path
 relativ path normilized:  /home/aron/ws/propra/m_os.path
-[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_os.path [0;37m15:47:44 [44m 493 [40m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_os.path [0;37m19:21:19 [44m 502 [40m
 $ exit
 [?2004lexit
 
-Script done on 2024-06-13 15:47:51+02:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2024-07-02 19:21:22+02:00 [COMMAND_EXIT_CODE="0"]

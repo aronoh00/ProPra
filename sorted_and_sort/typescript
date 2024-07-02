@@ -1,0 +1,20 @@
+Script started on 2024-07-02 18:56:59+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="125" LINES="9"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m18:56:59 [44m 501 [40m
+$ python sorted_and_sort/sorted_and_sort.py 
+[?2004lTupel von Alter, Gewicht, Körpergröße
+[(22, 69, 177), (22, 71, 172), (48, 72, 174), (38, 89, 179), (71, 59, 170)]
+Sortiert:
+[(22, 69, 177), (22, 71, 172), (38, 89, 179), (48, 72, 174), (71, 59, 170)]
+Sortiert nach Körpergröße 1:
+[(71, 59, 170), (22, 71, 172), (48, 72, 174), (22, 69, 177), (38, 89, 179)]
+Sortiert nach Körpergröße 2:
+[(71, 59, 170), (22, 71, 172), (48, 72, 174), (22, 69, 177), (38, 89, 179)]
+Sortiert nach Übergewicht:
+[(71, 59, 170), (22, 69, 177), (48, 72, 174), (22, 71, 172), (38, 89, 179)]
+Sortiert in Gewichtsgruppen:
+[(22, 71, 172), (71, 59, 170), (22, 69, 177), (38, 89, 179), (48, 72, 174)]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m18:57:10 [44m 502 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-07-02 18:57:13+02:00 [COMMAND_EXIT_CODE="0"]

@@ -14,3 +14,4 @@ for i in range (4):
             content = f.read()
         decode_content = content.decode(encodings[j], errors='ignore')
         print (f"Datei {i+1} mit Encoding {encodings[j]}: {decode_content}")
+        

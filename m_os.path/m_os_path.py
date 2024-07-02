@@ -63,6 +63,7 @@ if path_exists:
             if changed_time > last_canged_time:
                 last_canged_time = changed_time
                 last_canged_file = item
+            extension.append(os.path.splitext(item)[1])
     
     extension_counter = collections.Counter(extension)
     most_common_extension = extension_counter.most_common(1)[0][0] if extension_counter else "None"
@@ -70,7 +71,8 @@ if path_exists:
     print ("biggist file: ", biggist_file)
     print ("last created file: ", last_craeted_file)
     print ("last changed file: ", last_canged_file)
-    print ("most common extension: ", most_common_extension)
+    if most_common_extension == "": print ("most common extension: \"\" ")
+    
 
 
 
