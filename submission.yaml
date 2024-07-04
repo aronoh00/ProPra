@@ -1,2 +1,2 @@
-m_os.path: CHECK
-sorted_and_sort: CHECK
+m_os.path: ACCEPT
+sorted_and_sort: ACCEPT
