@@ -12,4 +12,4 @@ F3:
 
 1. Flat is better than nested: Wenn eine Matrix erzeugt wird, wird das Prinzip vereltzt, denn in einer einzigen Zeile wird eine zweidimensionale Matrix erzweugt.
 
-2. Readability counts: Wenn in einer List-Comprehnsion mehrere Berechnungen und Bedingungen kombiniert werdne kann die List-Comprehension noch funktional sein, aber nicht mehr so gut lesbar.
+2. Readability counts: Wenn in einer List-Comprehnsion mehrere Berechnungen und Bedingungen kombiniert werden kann die List-Comprehension noch funktional sein, aber nicht mehr so gut lesbar.
