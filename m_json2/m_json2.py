@@ -17,8 +17,8 @@ def hat_uni(json, studentname: str, wochentag: str) -> bool:
 print(hat_uni(data, "Max", "Donnerstag"))
 print(hat_uni(data, "Max", "Freitag"))
 
-def setze_wunschnote(json_data, studentname: str, fachname: str, wunschnote: float):
-    for student_key, student_value in json_data.items():
+def setze_wunschnote(json, studentname: str, fachname: str, wunschnote: float):
+    for student_key, student_value in json.items():
         if student_value.get("Name") == studentname:
             wunschnoten = student_value.get("Wunschnoten", {})
             if fachname in wunschnoten:

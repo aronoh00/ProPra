@@ -1,0 +1,62 @@
+Script started on 2024-08-19 10:42:17+02:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="125" LINES="13"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_subprocess [0;37m10:42:17 [44m 501 [40m
+$ ps aux
+[?2004lUSER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   2476  1716 hvc0     Sl+  Aug18   0:06 /init
+root         5  0.0  0.0   2492   132 hvc0     Sl+  Aug18   0:00 plan9 --control-socket 5 --log-level 4 --server-fd 6 --pipe-
+root         8  0.0  0.0   2484   116 ?        Ss   Aug18   0:00 /init
+root         9  0.0  0.0   2500   120 ?        S    Aug18   0:00 /init
+aron        10  0.0  0.0   7196  3796 pts/0    Ss+  Aug18   0:00 -bash
+root      1266  0.0  0.0   2492   116 ?        Ss   09:30   0:00 /init
+root      1267  0.0  0.0   2492   124 ?        S    09:30   0:03 /init
+aron      1268  0.2  1.4 1000396 57720 pts/13  Ssl+ 09:30   0:12 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+root      1275  0.0  0.0   2492   116 ?        Ss   09:30   0:00 /init
+root      1276  0.0  0.0   2492   124 ?        S    09:30   0:00 /init
+aron      1277  0.0  1.2 990884 48916 pts/17   Ssl+ 09:30   0:03 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+aron      3089  0.1  0.1   7436  4136 pts/10   Ss   10:41   0:00 /bin/bash --init-file /home/aron/.vscode-server/bin/5437499f
+aron      3242  0.0  0.0   5496  1004 pts/10   S+   10:42   0:00 script
+aron      3243  0.0  0.0   7196  3860 pts/15   Ss   10:42   0:00 bash -i
+aron      3291  0.0  0.0   2576   884 pts/1    S+   10:42   0:00 /bin/sh -c "/home/aron/.vscode-server/bin/5437499feb04f7a586
+aron      3292  0.0  0.0   6932  3236 pts/1    S+   10:42   0:00 /bin/bash /home/aron/.vscode-server/bin/5437499feb04f7a586f6
+aron      3297  0.0  0.0   5464   884 pts/1    S+   10:42   0:00 sleep 1
+aron      3298  100  0.1  11096  4284 pts/15   R+   10:42   0:00 ps aux
+root     14270  0.0  0.0   2492   124 ?        S    Aug18   0:00 /init
+aron     14271  0.0  0.9 725936 39544 pts/8    Ssl+ Aug18   0:00 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+root     14582  0.0  0.0   2492   124 ?        S    Aug18   0:00 /init
+aron     14583  0.0  0.9 726120 39684 pts/9    Ssl+ Aug18   0:00 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+root     18702  0.0  0.0   2480   116 ?        Ss   Aug18   0:00 /init
+root     18703  0.0  0.0   2496   120 ?        S    Aug18   0:00 /init
+aron     18704  0.0  0.0   2576   904 pts/1    Ss+  Aug18   0:00 sh -c "$VSCODE_WSL_EXT_LOCATION/scripts/wslServer.sh" 543749
+aron     18705  0.0  0.0   2576   928 pts/1    S+   Aug18   0:00 sh /mnt/c/Users/Aron/.vscode/extensions/ms-vscode-remote.rem
+aron     18710  0.0  0.0   2576   936 pts/1    S+   Aug18   0:00 sh /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b
+aron     18714  0.3  2.7 1332588 110024 pts/1  Sl+  Aug18   4:33 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+aron     18737  0.3  1.9 1348264 78836 pts/1   Sl+  Aug18   5:11 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+aron     18760  0.0  1.4 1371908 56108 pts/1   Sl+  Aug18   0:17 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+aron     18772  3.6 19.0 35127160 757092 pts/1 Sl+  Aug18  55:12 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+root     18811  0.0  0.0   2480   116 ?        Ss   Aug18   0:00 /init
+root     18812  0.0  0.0   2496   120 ?        S    Aug18   0:00 /init
+aron     18813  0.0  0.0   2576   880 pts/5    Ss+  Aug18   0:00 /bin/sh -c cd '/home/aron/ws/propra' && /bin/sh
+aron     18814  0.0  0.0   2576  1644 pts/5    S+   Aug18   0:00 /bin/sh
+aron     18824  0.0  1.2 992260 48000 pts/5    Sl+  Aug18   0:00 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+aron     18837  0.0  0.0   2576   896 pts/5    S+   Aug18   0:00 /bin/sh
+aron     18842  0.0  0.1   7328  3988 pts/6    Ss+  Aug18   0:00 /bin/bash --init-file /home/aron/.vscode-server/bin/5437499f
+aron     18922  0.0  1.9 1009472 75616 pts/1   Sl+  Aug18   0:28 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+aron     18966  1.8 14.0 2579596 558252 pts/1  Sl+  Aug18  27:37 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+aron     18973  0.0  0.1   7328  4084 pts/7    Ss+  Aug18   0:00 /bin/bash --init-file /home/aron/.vscode-server/bin/5437499f
+root     19188  0.0  0.0   2492   124 ?        S    Aug18   0:00 /init
+aron     19189  0.0  1.0 725936 41568 pts/4    Ssl+ Aug18   0:00 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+root     19224  0.0  0.0   2492   124 ?        S    Aug18   0:00 /init
+aron     19225  0.0  0.9 725936 39484 pts/3    Ssl+ Aug18   0:00 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+root     19985  0.0  0.0   2492   124 ?        S    Aug18   0:00 /init
+aron     19986  0.0  1.0 725936 41548 pts/2    Ssl+ Aug18   0:01 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+aron     20694  0.0  0.1   7436  4108 pts/12   Ss+  00:48   0:00 /bin/bash --init-file /home/aron/.vscode-server/bin/5437499f
+root     25148  0.0  0.0   2492   124 ?        S    04:17   0:00 /init
+aron     25149  0.0  0.9 725936 39440 pts/11   Ssl+ 04:17   0:00 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+root     25238  0.0  0.0   2492   124 ?        S    04:28   0:00 /init
+aron     25239  0.0  1.0 725936 41548 pts/14   Ssl+ 04:28   0:00 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+aron     28430  0.0  1.3 994796 55396 pts/1    Sl+  07:08   0:03 /home/aron/.vscode-server/bin/5437499feb04f7a586f677b155b039
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_subprocess [0;37m10:42:25 [44m 502 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-08-19 10:42:27+02:00 [COMMAND_EXIT_CODE="0"]
