@@ -1,0 +1,20 @@
+Script started on 2024-08-20 13:28:53+02:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="135" LINES="12"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_tempfile [0;37m13:28:53 [44m 500 [40m
+$ python m-[K_tempfile.py
+[?2004lpath of temp dir: /tmp/propra-j7yxs_74
+OS standard temp dir: /tmp
+temp file: /tmp/tmpd7qk6ps3
+temp file exists afer closing: True
+temp file content: Das ist der Inhalt meiner temporären Datei.
+temp file exists afer with statement: True
+unnamed temp file name: 4
+spooled temp file name: None
+spooled temp file name after reaching 1KB size: 3
+temp dir exists after with statement: False
+temp file exists after with statement: False
+spooled temp file exists after with statement: False
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_tempfile [0;37m13:29:04 [44m 501 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-08-20 13:29:06+02:00 [COMMAND_EXIT_CODE="0"]
