@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(183, 218, 255);
+}
+
+p{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+ul{
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+h2{
+    color: rgb(251, 101, 101)
+}
+
+h3{
+    color: rgb(55, 179, 78)
+}
