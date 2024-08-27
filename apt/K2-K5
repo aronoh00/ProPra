@@ -1,0 +1,338 @@
+Script started on 2024-08-21 11:04:21+02:00 [TERM="xterm-256color" TTY="/dev/pts/13" COLUMNS="135" LINES="19"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/apt [0;37m11:04:21 [44m 500 [40m
+
+$ apt search [7mmidnight commander[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[Cmidnight commander
+[?2004l
+
+Sorting... 0%
+
+Sorting... 0%
+
+Sorting... 0%
+
+Sorting... Done
+
+
+Full Text Search... 50%
+
+Full Text Search... 50%
+
+Full Text Search... 97%
+
+Full Text Search... Done
+
+[32mavfs[0m/stable 1.1.4-2 amd64
+  virtual filesystem to access archives, disk images, remote locations
+
+[32mfar2l[0m/stable-backports 2.6.1~beta+ds-1~bpo12+1 amd64
+  Linux port of FAR v2
+
+[32mfar2l-data[0m/stable-backports 2.6.1~beta+ds-1~bpo12+1 all
+  Linux port of FAR v2, data files
+
+[32mgnome-commander[0m/stable 1.16.0-1 amd64
+  nice and fast file manager for the GNOME desktop
+
+[32mgnome-commander-data[0m/stable 1.16.0-1 all
+  Data files for GNOME Commander
+
+[32mjunior-system[0m/stable 1.30 all
+  Debian Jr. System tools
+
+[32mkrusader[0m/stable 2:2.8.0-1 amd64
+  twin-panel (commander-style) file manager
+
+[32mlfm[0m/stable 3.1-2 all
+  simple but powerful file manager for the UNIX console
+
+[32mmc[0m/stable 3:4.8.29-2 amd64
+  Midnight Commander - a powerful file manager
+
+[32mmc-data[0m/stable 3:4.8.29-2 all
+  Midnight Commander - a powerful file manager -- data files
+
+[32mmoc[0m/stable 1:2.6.0~svn-r3005-3 amd64
+  ncurses based console audio player
+
+[32mpilot[0m/stable 2.26+dfsg-1 amd64
+  Simple file browser from Alpine, a text-based email client
+
+[32mtuxcmd[0m/stable 0.6.70+dfsg-3 amd64
+  twin-panel (commander-style) file manager using GTK+ 2
+
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/apt [0;37m11:05:25 [44m 501 [40m
+
+$ apt show mc
+[?2004l
+Package: mc
+Version: 3:4.8.29-2
+Priority: optional
+Section: utils
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Installed-Size: 1,526 kB
+Provides: mcedit
+Depends: libc6 (>= 2.34), libext2fs2 (>= 1.37), libglib2.0-0 (>= 2.67.3), libgpm2 (>= 1.20.7), libslang2 (>= 2.2.4), libssh2-1 (>= 1.2.8), mc-data (= 3:4.8.29-2)
+Recommends: mailcap, perl, sensible-utils, unzip
+Suggests: arj, bzip2, catdvi | texlive-binaries, dbview, djvulibre-bin, epub-utils, file, genisoimage, gv, imagemagick, libaspell-dev, links | w3m | lynx, odt2txt, poppler-utils, python, python-boto, python-tz, unar, wimtools, xpdf | pdf-viewer, zip
+Homepage: https://www.midnight-commander.org
+Tag: admin::filesystem, devel::lang:perl, devel::library, implemented-in::c,
+ implemented-in::perl, interface::commandline, interface::text-mode,
+ role::devel-lib, role::program, scope::application, scope::utility,
+ suite::gnu, uitoolkit::ncurses, use::browsing, use::editing,
+ use::organizing, works-with::archive, works-with::file
+Download-Size: 522 kB
+APT-Sources: http://deb.debian.org/debian bookworm/main amd64 Packages
+Description: Midnight Commander - a powerful file manager
+ GNU Midnight Commander is a text-mode full-screen file manager. It
+ uses a two panel interface and a subshell for command execution. It
+ includes an internal editor with syntax highlighting and an internal
+ viewer with support for binary files. Also included is Virtual
+ Filesystem (VFS), that allows files on remote systems (e.g. FTP, SSH
+ servers) and files inside archives to be manipulated like real files.
+
+[33mN: [0mThere is 1 additional record. Please use the '-a' switch to see it[0m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/apt [0;37m11:06:36 [44m 502 [40m
+
+$ sudo apt install mc
+[?2004l
+[sudo] password for aron: 
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  file libglib2.0-0 libglib2.0-data libgpm2 libicu72 libmagic-mgc libmagic1 libxml2 mailcap mc-data shared-mime-info unzip
+  xdg-user-dirs
+Suggested packages:
+  low-memory-monitor gpm arj catdvi | texlive-binaries dbview djvulibre-bin epub-utils genisoimage gv imagemagick libaspell-dev links
+  | w3m | lynx odt2txt poppler-utils python python-boto python-tz unar wimtools xpdf | pdf-viewer zip
+The following NEW packages will be installed:
+  file libglib2.0-0 libglib2.0-data libgpm2 libicu72 libmagic-mgc libmagic1 libxml2 mailcap mc mc-data shared-mime-info unzip
+  xdg-user-dirs
+0 upgraded, 14 newly installed, 0 to remove and 0 not upgraded.
+Need to get 16.0 MB of archives.
+After this operation, 75.4 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m
+0% [Working][0m
+            
+Get:1 http://deb.debian.org/debian bookworm/main amd64 libmagic-mgc amd64 1:5.44-3 [305 kB]
+[33m
+0% [1 libmagic-mgc 1,888 B/305 kB 1%][0m[33m
+                                     
+3% [Working][0m
+            
+Get:2 http://deb.debian.org/debian bookworm/main amd64 libmagic1 amd64 1:5.44-3 [104 kB]
+[33m
+3% [2 libmagic1 2,832 B/104 kB 3%][0m[33m
+                                  
+5% [Waiting for headers][0m
+                        
+Get:3 http://deb.debian.org/debian bookworm/main amd64 file amd64 1:5.44-3 [42.5 kB]
+[33m
+5% [3 file 9,786 B/42.5 kB 23%][0m[33m
+                               
+7% [Working][0m
+            
+Get:4 http://deb.debian.org/debian bookworm/main amd64 libglib2.0-0 amd64 2.74.6-2+deb12u3 [1,400 kB]
+[33m
+7% [4 libglib2.0-0 3,442 B/1,400 kB 0%][0m[33m
+                                       
+15% [Waiting for headers][0m
+                         
+Get:5 http://deb.debian.org/debian bookworm/main amd64 libglib2.0-data all 2.74.6-2+deb12u3 [1,209 kB]
+[33m
+15% [5 libglib2.0-data 20.2 kB/1,209 kB 2%][0m[33m
+                                           
+22% [Waiting for headers][0m
+                         
+Get:6 http://deb.debian.org/debian bookworm/main amd64 libgpm2 amd64 1.20.7-10+b1 [14.2 kB]
+[33m
+23% [6 libgpm2 14.2 kB/14.2 kB 100%][0m[33m
+                                    
+24% [Working][0m
+             
+Get:7 http://deb.debian.org/debian bookworm/main amd64 libicu72 amd64 72.1-3 [9,376 kB]
+[33m
+24% [7 libicu72 18.1 kB/9,376 kB 0%][0m[33m
+36% [7 libicu72 2,487 kB/9,376 kB 27%][0m[33m
+53% [7 libicu72 5,792 kB/9,376 kB 62%][0m[33m
+                                      
+72% [Waiting for headers][0m
+                         
+Get:8 http://deb.debian.org/debian bookworm/main amd64 libxml2 amd64 2.9.14+dfsg-1.3~deb12u1 [687 kB]
+[33m
+73% [8 libxml2 84.8 kB/687 kB 12%][0m[33m
+                                  
+77% [Waiting for headers][0m
+                         
+Get:9 http://deb.debian.org/debian bookworm/main amd64 mailcap all 3.70+nmu1 [32.0 kB]
+[33m
+77% [9 mailcap 28.7 kB/32.0 kB 90%][0m[33m
+                                   
+79% [Waiting for headers][0m
+                         
+Get:10 http://deb.debian.org/debian bookworm/main amd64 mc-data all 3:4.8.29-2 [1,346 kB]
+[33m
+79% [10 mc-data 16.4 kB/1,346 kB 1%][0m[33m
+                                    
+87% [Waiting for headers][0m
+                         
+Get:11 http://deb.debian.org/debian bookworm/main amd64 mc amd64 3:4.8.29-2 [522 kB]
+[33m
+87% [11 mc 10.2 kB/522 kB 2%][0m[33m
+                             
+91% [Waiting for headers][0m[33m
+91% [Waiting for headers][0m[33m
+91% [Waiting for headers][0m
+                         
+Get:12 http://deb.debian.org/debian bookworm/main amd64 shared-mime-info amd64 2.2-1 [729 kB]
+[33m
+91% [12 shared-mime-info 8,496 B/729 kB 1%][0m[33m
+                                           
+96% [Waiting for headers][0m
+                         
+Get:13 http://deb.debian.org/debian bookworm/main amd64 unzip amd64 6.0-28 [166 kB]
+[33m
+96% [13 unzip 18.6 kB/166 kB 11%][0m[33m
+                                 
+98% [Waiting for headers][0m
+                         
+Get:14 http://deb.debian.org/debian bookworm/main amd64 xdg-user-dirs amd64 0.18-1 [54.4 kB]
+[33m
+98% [14 xdg-user-dirs 11.3 kB/54.4 kB 21%][0m[33m
+                                          
+100% [Working][0m
+              
+Fetched 16.0 MB in 5s (3,519 kB/s)
+
+7[0;18r8[1ASelecting previously unselected package libmagic-mgc.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 29310 files and directories currently installed.)
+Preparing to unpack .../00-libmagic-mgc_1%3a5.44-3_amd64.deb ...
+7[19;0f[42m[30mProgress: [  0%][49m[39m [.................................................................................................................] 87[19;0f[42m[30mProgress: [  2%][49m[39m [#................................................................................................................] 8Unpacking libmagic-mgc (1:5.44-3) ...
+7[19;0f[42m[30mProgress: [  4%][49m[39m [###..............................................................................................................] 8Selecting previously unselected package libmagic1:amd64.
+Preparing to unpack .../01-libmagic1_1%3a5.44-3_amd64.deb ...
+7[19;0f[42m[30mProgress: [  5%][49m[39m [#####............................................................................................................] 8Unpacking libmagic1:amd64 (1:5.44-3) ...
+7[19;0f[42m[30mProgress: [  7%][49m[39m [#######..........................................................................................................] 8Selecting previously unselected package file.
+Preparing to unpack .../02-file_1%3a5.44-3_amd64.deb ...
+7[19;0f[42m[30mProgress: [  9%][49m[39m [#########........................................................................................................] 8Unpacking file (1:5.44-3) ...
+7[19;0f[42m[30mProgress: [ 11%][49m[39m [###########......................................................................................................] 8Selecting previously unselected package libglib2.0-0:amd64.
+Preparing to unpack .../03-libglib2.0-0_2.74.6-2+deb12u3_amd64.deb ...
+7[19;0f[42m[30mProgress: [ 12%][49m[39m [#############....................................................................................................] 8Unpacking libglib2.0-0:amd64 (2.74.6-2+deb12u3) ...
+7[19;0f[42m[30mProgress: [ 14%][49m[39m [###############..................................................................................................] 8Selecting previously unselected package libglib2.0-data.
+Preparing to unpack .../04-libglib2.0-data_2.74.6-2+deb12u3_all.deb ...
+7[19;0f[42m[30mProgress: [ 16%][49m[39m [#################................................................................................................] 8Unpacking libglib2.0-data (2.74.6-2+deb12u3) ...
+7[19;0f[42m[30mProgress: [ 18%][49m[39m [###################..............................................................................................] 8Selecting previously unselected package libgpm2:amd64.
+Preparing to unpack .../05-libgpm2_1.20.7-10+b1_amd64.deb ...
+7[19;0f[42m[30mProgress: [ 19%][49m[39m [#####################............................................................................................] 8Unpacking libgpm2:amd64 (1.20.7-10+b1) ...
+7[19;0f[42m[30mProgress: [ 21%][49m[39m [#######################..........................................................................................] 8Selecting previously unselected package libicu72:amd64.
+Preparing to unpack .../06-libicu72_72.1-3_amd64.deb ...
+7[19;0f[42m[30mProgress: [ 23%][49m[39m [#########################........................................................................................] 8Unpacking libicu72:amd64 (72.1-3) ...
+7[19;0f[42m[30mProgress: [ 25%][49m[39m [###########################......................................................................................] 8Selecting previously unselected package libxml2:amd64.
+Preparing to unpack .../07-libxml2_2.9.14+dfsg-1.3~deb12u1_amd64.deb ...
+7[19;0f[42m[30mProgress: [ 26%][49m[39m [#############################....................................................................................] 8Unpacking libxml2:amd64 (2.9.14+dfsg-1.3~deb12u1) ...
+7[19;0f[42m[30mProgress: [ 28%][49m[39m [###############################..................................................................................] 8Selecting previously unselected package mailcap.
+Preparing to unpack .../08-mailcap_3.70+nmu1_all.deb ...
+7[19;0f[42m[30mProgress: [ 30%][49m[39m [#################################................................................................................] 8Unpacking mailcap (3.70+nmu1) ...
+7[19;0f[42m[30mProgress: [ 32%][49m[39m [###################################..............................................................................] 8Selecting previously unselected package mc-data.
+Preparing to unpack .../09-mc-data_3%3a4.8.29-2_all.deb ...
+7[19;0f[42m[30mProgress: [ 33%][49m[39m [#####################################............................................................................] 8Unpacking mc-data (3:4.8.29-2) ...
+7[19;0f[42m[30mProgress: [ 35%][49m[39m [#######################################..........................................................................] 8Selecting previously unselected package mc.
+Preparing to unpack .../10-mc_3%3a4.8.29-2_amd64.deb ...
+7[19;0f[42m[30mProgress: [ 37%][49m[39m [#########################################........................................................................] 8Unpacking mc (3:4.8.29-2) ...
+7[19;0f[42m[30mProgress: [ 39%][49m[39m [###########################################......................................................................] 8Selecting previously unselected package shared-mime-info.
+Preparing to unpack .../11-shared-mime-info_2.2-1_amd64.deb ...
+7[19;0f[42m[30mProgress: [ 40%][49m[39m [#############################################....................................................................] 8Unpacking shared-mime-info (2.2-1) ...
+7[19;0f[42m[30mProgress: [ 42%][49m[39m [###############################################..................................................................] 8Selecting previously unselected package unzip.
+Preparing to unpack .../12-unzip_6.0-28_amd64.deb ...
+7[19;0f[42m[30mProgress: [ 44%][49m[39m [#################################################................................................................] 8Unpacking unzip (6.0-28) ...
+7[19;0f[42m[30mProgress: [ 46%][49m[39m [###################################################..............................................................] 8Selecting previously unselected package xdg-user-dirs.
+Preparing to unpack .../13-xdg-user-dirs_0.18-1_amd64.deb ...
+7[19;0f[42m[30mProgress: [ 47%][49m[39m [#####################################################............................................................] 8Unpacking xdg-user-dirs (0.18-1) ...
+7[19;0f[42m[30mProgress: [ 49%][49m[39m [#######################################################..........................................................] 8Setting up libgpm2:amd64 (1.20.7-10+b1) ...
+7[19;0f[42m[30mProgress: [ 51%][49m[39m [#########################################################........................................................] 87[19;0f[42m[30mProgress: [ 53%][49m[39m [###########################################################......................................................] 8Setting up libicu72:amd64 (72.1-3) ...
+7[19;0f[42m[30mProgress: [ 54%][49m[39m [#############################################################....................................................] 87[19;0f[42m[30mProgress: [ 56%][49m[39m [###############################################################..................................................] 8Setting up xdg-user-dirs (0.18-1) ...
+7[19;0f[42m[30mProgress: [ 58%][49m[39m [#################################################################................................................] 87[19;0f[42m[30mProgress: [ 60%][49m[39m [###################################################################..............................................] 8Setting up libmagic-mgc (1:5.44-3) ...
+7[19;0f[42m[30mProgress: [ 61%][49m[39m [#####################################################################............................................] 87[19;0f[42m[30mProgress: [ 63%][49m[39m [#######################################################################..........................................] 8Setting up libglib2.0-0:amd64 (2.74.6-2+deb12u3) ...
+7[19;0f[42m[30mProgress: [ 65%][49m[39m [#########################################################################........................................] 8No schema files found: doing nothing.
+7[19;0f[42m[30mProgress: [ 67%][49m[39m [###########################################################################......................................] 8Setting up unzip (6.0-28) ...
+7[19;0f[42m[30mProgress: [ 68%][49m[39m [#############################################################################....................................] 87[19;0f[42m[30mProgress: [ 70%][49m[39m [###############################################################################..................................] 8Setting up libmagic1:amd64 (1:5.44-3) ...
+7[19;0f[42m[30mProgress: [ 72%][49m[39m [#################################################################################................................] 87[19;0f[42m[30mProgress: [ 74%][49m[39m [###################################################################################..............................] 8Setting up file (1:5.44-3) ...
+7[19;0f[42m[30mProgress: [ 75%][49m[39m [#####################################################################################............................] 87[19;0f[42m[30mProgress: [ 77%][49m[39m [#######################################################################################..........................] 8Setting up libglib2.0-data (2.74.6-2+deb12u3) ...
+7[19;0f[42m[30mProgress: [ 79%][49m[39m [#########################################################################################........................] 87[19;0f[42m[30mProgress: [ 81%][49m[39m [###########################################################################################......................] 8Setting up mc-data (3:4.8.29-2) ...
+7[19;0f[42m[30mProgress: [ 82%][49m[39m [#############################################################################################....................] 87[19;0f[42m[30mProgress: [ 84%][49m[39m [###############################################################################################..................] 8Setting up mailcap (3.70+nmu1) ...
+7[19;0f[42m[30mProgress: [ 86%][49m[39m [#################################################################################################................] 87[19;0f[42m[30mProgress: [ 88%][49m[39m [###################################################################################################..............] 8Setting up libxml2:amd64 (2.9.14+dfsg-1.3~deb12u1) ...
+7[19;0f[42m[30mProgress: [ 89%][49m[39m [#####################################################################################################............] 87[19;0f[42m[30mProgress: [ 91%][49m[39m [#######################################################################################################..........] 8Setting up mc (3:4.8.29-2) ...
+7[19;0f[42m[30mProgress: [ 93%][49m[39m [#########################################################################################################........] 8update-alternatives: using /usr/bin/mcview to provide /usr/bin/view (view) in auto mode
+7[19;0f[42m[30mProgress: [ 95%][49m[39m [###########################################################################################################......] 8Setting up shared-mime-info (2.2-1) ...
+7[19;0f[42m[30mProgress: [ 96%][49m[39m [#############################################################################################################....] 87[19;0f[42m[30mProgress: [ 98%][49m[39m [###############################################################################################################..] 8Processing triggers for man-db (2.11.2-2) ...
+Processing triggers for libc-bin (2.36-9+deb12u7) ...
+
+7[0;19r8[1A[J[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/apt [0;37m11:08:52 [44m 504 [40m
+
+$ apt list --installed | grep'^m'
+[?2004l
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+mailcap/stable,now 3.70+nmu1 all [installed,automatic]
+make/stable,now 4.3-4.1 amd64 [installed,automatic]
+man-db/stable,now 2.11.2-2 amd64 [installed]
+manpages-dev/stable,now 6.03-2 all [installed]
+manpages/stable,now 6.03-2 all [installed]
+mawk/stable,now 1.3.4.20200120-3.1 amd64 [installed]
+mc-data/stable,now 3:4.8.29-2 all [installed,automatic]
+mc/stable,now 3:4.8.29-2 amd64 [installed]
+media-types/stable,now 10.0.0 all [installed,automatic]
+mkdocs/stable,now 1.4.2+dfsg-2 all [installed,automatic]
+mount/stable,stable-security,now 2.38.1-5+deb12u1 amd64 [installed]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/apt [0;37m11:12:06 [44m 505 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-08-21 11:12:14+02:00 [COMMAND_EXIT_CODE="0"]

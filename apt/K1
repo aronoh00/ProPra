@@ -1,0 +1,824 @@
+Script started on 2024-08-21 10:58:08+02:00 [TERM="xterm-256color" TTY="/dev/pts/13" COLUMNS="135" LINES="23"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/apt [0;37m10:58:08 [44m 500 [40m
+
+$ apt[K[K[Ksudo apt updade[K[Kte
+[?2004l
+[sudo] password for aron: 
+[33m
+0% [Working][0m
+            
+Get:1 http://security.debian.org/debian-security bookworm-security InRelease [48.0 kB]
+
+            
+Get:2 http://ftp.debian.org/debian bookworm-backports InRelease [56.6 kB]
+[33m
+0% [Waiting for headers] [1 InRelease 27.4 kB/48.0 kB 57%] [2 InRelease 10.7 kB/56.6 kB 19%][0m
+                                                                                            
+Get:3 http://deb.debian.org/debian bookworm InRelease [151 kB]
+[33m
+0% [3 InRelease 17.0 kB/151 kB 11%] [1 InRelease 27.4 kB/48.0 kB 57%] [2 InRelease 25.8 kB/56.6 kB 46%][0m[33m
+                                                                                                       
+0% [3 InRelease 151 kB/151 kB 100%] [2 InRelease 56.6 kB/56.6 kB 100%][0m[33m
+                                                                      
+0% [Waiting for headers][0m
+                        
+Get:4 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+[33m
+0% [4 InRelease 8,496 B/55.4 kB 15%][0m[33m
+                                    
+0% [Working][0m[33m
+0% [Working][0m
+            
+Get:5 http://security.debian.org/debian-security bookworm-security/main amd64 Packages [172 kB]
+[33m
+0% [5 Packages 6,608 B/172 kB 4%][0m[33m
+                                 
+0% [Working][0m[33m
+0% [5 Packages store 0 B] [Waiting for headers][0m
+                                               
+Get:6 http://security.debian.org/debian-security bookworm-security/main Translation-en [104 kB]
+[33m
+0% [5 Packages store 0 B] [6 Translation-en 54.8 kB/104 kB 52%][0m[33m
+                                                               
+0% [5 Packages store 0 B][0m[33m
+                         
+0% [Working][0m[33m
+0% [6 Translation-en store 0 B][0m[33m
+                               
+0% [Working][0m[33m
+0% [Working][0m
+            
+Get:7 http://deb.debian.org/debian bookworm/main amd64 Packages [8,788 kB]
+[33m
+0% [7 Packages 10.7 kB/8,788 kB 0%][0m[33m
+0% [7 Packages 2,791 kB/8,788 kB 32%][0m
+                                     
+Get:8 http://ftp.debian.org/debian bookworm-backports/main amd64 Packages.diff/Index [63.3 kB]
+[33m
+0% [7 Packages 3,184 kB/8,788 kB 36%] [8 Packages 4,096 B/63.3 kB 6%][0m
+                                                                     
+Ign:8 http://ftp.debian.org/debian bookworm-backports/main amd64 Packages.diff/Index
+[33m
+                                                                     
+0% [7 Packages 3,301 kB/8,788 kB 38%][0m
+                                     
+Get:9 http://ftp.debian.org/debian bookworm-backports/main Translation-en.diff/Index [63.3 kB]
+[33m
+0% [7 Packages 3,848 kB/8,788 kB 44%] [9 Translation-en 5,664 B/63.3 kB 9%][0m[33m
+                                                                           
+0% [7 Packages 4,518 kB/8,788 kB 51%][0m
+                                     
+Get:10 http://ftp.debian.org/debian bookworm-backports/main amd64 Packages [226 kB]
+[33m
+0% [7 Packages 5,044 kB/8,788 kB 57%] [10 Packages 1,888 B/226 kB 1%][0m[33m
+46% [7 Packages 5,247 kB/8,788 kB 60%] [10 Packages 39.6 kB/226 kB 18%][0m[33m
+                                                                       
+53% [7 Packages 6,365 kB/8,788 kB 72%][0m[33m
+53% [10 Packages store 0 B] [7 Packages 6,365 kB/8,788 kB 72%][0m[33m
+                                                              
+57% [7 Packages 7,036 kB/8,788 kB 80%] [Waiting for headers][0m
+                                                            
+Get:11 http://ftp.debian.org/debian bookworm-backports/main Translation-en T-2024-08-20-2012.11-F-2024-05-22-0207.40.pdiff [39.3 kB]
+[33m
+58% [7 Packages 7,164 kB/8,788 kB 82%] [11 Translation-en 1,888 B/39.3 kB 5%][0m[33m
+                                                                             
+61% [7 Packages 7,803 kB/8,788 kB 89%][0m
+                                      
+Get:11 http://ftp.debian.org/debian bookworm-backports/main Translation-en T-2024-08-20-2012.11-F-2024-05-22-0207.40.pdiff [39.3 kB]
+[33m
+61% [11 Translation-en rred 0 B] [7 Packages 7,803 kB/8,788 kB 89%][0m[33m
+                                                                   
+65% [7 Packages 8,377 kB/8,788 kB 95%][0m[33m
+                                      
+67% [Working][0m[33m
+67% [7 Packages store 0 B] [Waiting for headers][0m
+                                                
+Get:12 http://deb.debian.org/debian bookworm/main Translation-en [6,109 kB]
+[33m
+67% [7 Packages store 0 B] [12 Translation-en 14.2 kB/6,109 kB 0%][0m[33m
+84% [7 Packages store 0 B] [12 Translation-en 3,411 kB/6,109 kB 56%][0m[33m
+                                                                    
+98% [7 Packages store 0 B][0m[33m
+98% [7 Packages store 0 B][0m[33m
+98% [7 Packages store 0 B][0m[33m
+                          
+99% [Working][0m[33m
+99% [12 Translation-en store 0 B][0m[33m
+99% [12 Translation-en store 0 B][0m[33m
+99% [12 Translation-en store 0 B][0m[33m
+                                 
+99% [Working][0m
+             
+Fetched 15.9 MB in 6s (2,851 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 54%
+
+Reading package lists... 57%
+
+Reading package lists... 57%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+40 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[33mN: [0mRepository 'http://deb.debian.org/debian bookworm InRelease' changed its 'Version' value from '12.5' to '12.6'[0m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/apt [0;37m10:59:15 [44m 501 [40m
+
+$ apt[K[K[Ksudo apt upgrade
+[?2004l
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+
+Calculating upgrade... 0%
+
+Calculating upgrade... 10%
+
+Calculating upgrade... Done
+
+The following packages will be upgraded:
+  base-files bash less libaom3 libc-bin libc-dev-bin libc-devtools libc-l10n libc6 libc6-dev libcurl3-gnutls libdav1d6 libfreetype6
+  libgnutls30 libgssapi-krb5-2 libk5crypto3 libkrb5-3 libkrb5support0 libpython3.11 libpython3.11-dev libpython3.11-minimal
+  libpython3.11-stdlib libseccomp2 libssl3 libsystemd-shared libsystemd0 libudev1 linux-libc-dev locales nano openssh-client openssl
+  python-is-python3 python3.11 python3.11-dev python3.11-minimal python3.11-venv systemd systemd-sysv udev
+40 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 43.4 MB of archives.
+After this operation, 302 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m
+0% [Working][0m
+            
+Get:1 http://deb.debian.org/debian bookworm/main amd64 base-files amd64 12.4+deb12u6 [70.8 kB]
+[33m
+0% [1 base-files 9,440 B/70.8 kB 13%] [Waiting for headers][0m
+                                                           
+Get:2 http://security.debian.org/debian-security bookworm-security/main amd64 linux-libc-dev amd64 6.1.99-1 [2,007 kB]
+[33m
+0% [1 base-files 9,440 B/70.8 kB 13%] [2 linux-libc-dev 9,440 B/2,007 kB 0%][0m[33m
+                                                                            
+1% [2 linux-libc-dev 84.0 kB/2,007 kB 4%][0m
+                                         
+Get:3 http://deb.debian.org/debian bookworm/main amd64 bash amd64 5.2.15-2+b7 [1,490 kB]
+[33m
+1% [3 bash 2,832 B/1,490 kB 0%] [2 linux-libc-dev 120 kB/2,007 kB 6%][0m[33m
+                                                                     
+7% [Waiting for headers] [2 linux-libc-dev 1,597 kB/2,007 kB 80%][0m
+                                                                 
+Get:4 http://deb.debian.org/debian bookworm/main amd64 libc-devtools amd64 2.36-9+deb12u7 [53.4 kB]
+[33m
+7% [4 libc-devtools 7,933 B/53.4 kB 15%] [2 linux-libc-dev 1,597 kB/2,007 kB 80%][0m[33m
+                                                                                 
+8% [Waiting for headers] [2 linux-libc-dev 1,648 kB/2,007 kB 82%][0m
+                                                                 
+Get:5 http://deb.debian.org/debian bookworm/main amd64 libc6-dev amd64 2.36-9+deb12u7 [1,899 kB]
+[33m
+8% [5 libc6-dev 9,489 B/1,899 kB 0%] [2 linux-libc-dev 1,648 kB/2,007 kB 82%][0m[33m
+                                                                             
+9% [5 libc6-dev 431 kB/1,899 kB 23%] [Waiting for headers][0m
+                                                          
+Get:6 http://security.debian.org/debian-security bookworm-security/main amd64 libgssapi-krb5-2 amd64 1.20.1-2+deb12u2 [135 kB]
+[33m
+10% [5 libc6-dev 533 kB/1,899 kB 28%] [6 libgssapi-krb5-2 4,720 B/135 kB 4%][0m
+                                                                            
+Get:7 http://security.debian.org/debian-security bookworm-security/main amd64 libkrb5-3 amd64 1.20.1-2+deb12u2 [332 kB]
+[33m
+                                                                            
+11% [5 libc6-dev 729 kB/1,899 kB 38%] [7 libkrb5-3 67.2 kB/332 kB 20%][0m[33m
+                                                                      
+12% [5 libc6-dev 1,057 kB/1,899 kB 56%] [Waiting for headers][0m
+                                                             
+Get:8 http://security.debian.org/debian-security bookworm-security/main amd64 libkrb5support0 amd64 1.20.1-2+deb12u2 [32.6 kB]
+[33m
+12% [5 libc6-dev 1,058 kB/1,899 kB 56%] [8 libkrb5support0 4,689 B/32.6 kB 14%][0m[33m
+                                                                               
+13% [5 libc6-dev 1,099 kB/1,899 kB 58%][0m
+                                       
+Get:9 http://security.debian.org/debian-security bookworm-security/main amd64 libk5crypto3 amd64 1.20.1-2+deb12u2 [78.7 kB]
+[33m
+13% [5 libc6-dev 1,102 kB/1,899 kB 58%] [9 libk5crypto3 1,604 B/78.7 kB 2%][0m[33m
+                                                                           
+14% [5 libc6-dev 1,175 kB/1,899 kB 62%][0m
+                                       
+Get:10 http://security.debian.org/debian-security bookworm-security/main amd64 openssh-client amd64 1:9.2p1-2+deb12u3 [991 kB]
+[33m
+14% [5 libc6-dev 1,175 kB/1,899 kB 62%] [10 openssh-client 1,489 B/991 kB 0%][0m[33m
+                                                                             
+17% [10 openssh-client 679 kB/991 kB 69%][0m
+                                         
+Get:11 http://deb.debian.org/debian bookworm/main amd64 libc-dev-bin amd64 2.36-9+deb12u7 [45.8 kB]
+[33m
+17% [11 libc-dev-bin 9,802 B/45.8 kB 21%] [10 openssh-client 679 kB/991 kB 69%][0m[33m
+                                                                               
+18% [Waiting for headers] [10 openssh-client 713 kB/991 kB 72%][0m
+                                                               
+Get:12 http://deb.debian.org/debian bookworm/main amd64 libc6 amd64 2.36-9+deb12u7 [2,758 kB]
+[33m
+18% [12 libc6 4,865 B/2,758 kB 0%] [10 openssh-client 713 kB/991 kB 72%][0m[33m
+                                                                        
+19% [12 libc6 312 kB/2,758 kB 11%][0m
+                                  
+Get:13 http://security.debian.org/debian-security bookworm-security/main amd64 libaom3 amd64 3.6.0-1+deb12u1 [1,851 kB]
+[33m
+19% [12 libc6 312 kB/2,758 kB 11%] [13 libaom3 256 B/1,851 kB 0%][0m[33m
+25% [12 libc6 1,991 kB/2,758 kB 72%] [13 libaom3 1,536 kB/1,851 kB 83%][0m[33m
+                                                                       
+27% [12 libc6 2,447 kB/2,758 kB 89%][0m[33m
+                                    
+28% [Waiting for headers][0m
+                         
+Get:14 http://deb.debian.org/debian bookworm/main amd64 libc-bin amd64 2.36-9+deb12u7 [607 kB]
+[33m
+28% [14 libc-bin 23.5 kB/607 kB 4%][0m[33m
+                                   
+30% [Working][0m
+             
+Get:15 http://deb.debian.org/debian bookworm/main amd64 libseccomp2 amd64 2.5.4-1+deb12u1 [46.8 kB]
+[33m
+30% [15 libseccomp2 20.5 kB/46.8 kB 44%][0m[33m
+                                        
+30% [Working][0m
+             
+Get:16 http://deb.debian.org/debian bookworm/main amd64 libssl3 amd64 3.0.13-1~deb12u1 [2,022 kB]
+[33m
+30% [16 libssl3 35.3 kB/2,022 kB 2%][0m[33m
+                                    
+35% [Waiting for headers][0m
+                         
+Get:17 http://deb.debian.org/debian bookworm/main amd64 systemd amd64 252.26-1~deb12u2 [3,035 kB]
+[33m
+35% [17 systemd 44.6 kB/3,035 kB 1%][0m[33m
+                                    
+41% [Waiting for headers][0m
+                         
+Get:18 http://deb.debian.org/debian bookworm/main amd64 libsystemd-shared amd64 252.26-1~deb12u2 [1,692 kB]
+[33m
+41% [18 libsystemd-shared 23.6 kB/1,692 kB 1%][0m[33m
+                                              
+44% [Waiting for headers][0m
+                         
+Get:19 http://deb.debian.org/debian bookworm/main amd64 libsystemd0 amd64 252.26-1~deb12u2 [332 kB]
+[33m
+44% [19 libsystemd0 14.6 kB/332 kB 4%][0m[33m
+                                      
+45% [Waiting for headers][0m
+                         
+Get:20 http://deb.debian.org/debian bookworm/main amd64 systemd-sysv amd64 252.26-1~deb12u2 [42.3 kB]
+[33m
+45% [20 systemd-sysv 2,357 B/42.3 kB 6%][0m[33m
+                                        
+46% [Waiting for headers][0m
+                         
+Get:21 http://deb.debian.org/debian bookworm/main amd64 python3.11-dev amd64 3.11.2-6+deb12u2 [615 kB]
+[33m
+46% [21 python3.11-dev 3,063 B/615 kB 0%][0m[33m
+                                         
+48% [Waiting for headers][0m
+                         
+Get:22 http://deb.debian.org/debian bookworm/main amd64 libpython3.11-dev amd64 3.11.2-6+deb12u2 [4,742 kB]
+[33m
+48% [22 libpython3.11-dev 18.8 kB/4,742 kB 0%][0m[33m
+54% [22 libpython3.11-dev 3,625 kB/4,742 kB 76%][0m[33m
+                                                
+57% [Waiting for headers][0m
+                         
+Get:23 http://deb.debian.org/debian bookworm/main amd64 libpython3.11 amd64 3.11.2-6+deb12u2 [1,987 kB]
+[33m
+57% [23 libpython3.11 4,461 B/1,987 kB 0%][0m[33m
+                                          
+61% [Waiting for headers][0m
+                         
+Get:24 http://deb.debian.org/debian bookworm/main amd64 python3.11-venv amd64 3.11.2-6+deb12u2 [5,896 B]
+[33m
+61% [24 python3.11-venv 4,096 B/5,896 B 69%][0m[33m
+                                            
+61% [Working][0m
+             
+Get:25 http://deb.debian.org/debian bookworm/main amd64 python3.11 amd64 3.11.2-6+deb12u2 [573 kB]
+[33m
+62% [25 python3.11 6,873 B/573 kB 1%][0m[33m
+                                     
+63% [Working][0m
+             
+Get:26 http://deb.debian.org/debian bookworm/main amd64 libpython3.11-stdlib amd64 3.11.2-6+deb12u2 [1,799 kB]
+[33m
+63% [26 libpython3.11-stdlib 12.9 kB/1,799 kB 1%][0m[33m
+                                                 
+67% [Waiting for headers][0m
+                         
+Get:27 http://deb.debian.org/debian bookworm/main amd64 python3.11-minimal amd64 3.11.2-6+deb12u2 [2,067 kB]
+[33m
+67% [27 python3.11-minimal 11.4 kB/2,067 kB 1%][0m[33m
+                                               
+71% [Working][0m
+             
+Get:28 http://deb.debian.org/debian bookworm/main amd64 libpython3.11-minimal amd64 3.11.2-6+deb12u2 [814 kB]
+[33m
+71% [28 libpython3.11-minimal 40.0 kB/814 kB 5%][0m[33m
+                                                
+73% [Waiting for headers][0m
+                         
+Get:29 http://deb.debian.org/debian bookworm/main amd64 libgnutls30 amd64 3.7.9-2+deb12u3 [1,405 kB]
+[33m
+73% [29 libgnutls30 15.2 kB/1,405 kB 1%][0m[33m
+                                        
+76% [Waiting for headers][0m
+                         
+Get:30 http://deb.debian.org/debian bookworm/main amd64 udev amd64 252.26-1~deb12u2 [1,682 kB]
+[33m
+76% [30 udev 2,222 B/1,682 kB 0%][0m[33m
+                                 
+80% [Waiting for headers][0m
+                         
+Get:31 http://deb.debian.org/debian bookworm/main amd64 libudev1 amd64 252.26-1~deb12u2 [108 kB]
+[33m
+80% [31 libudev1 13.0 kB/108 kB 12%][0m[33m
+                                    
+81% [Working][0m
+             
+Get:32 http://deb.debian.org/debian bookworm/main amd64 less amd64 590-2.1~deb12u2 [132 kB]
+[33m
+81% [32 less 16.3 kB/132 kB 12%][0m[33m
+                                
+81% [Working][0m
+             
+Get:33 http://deb.debian.org/debian bookworm/main amd64 nano amd64 7.2-1+deb12u1 [690 kB]
+[33m
+81% [33 nano 19.5 kB/690 kB 3%][0m[33m
+                               
+83% [Waiting for headers][0m
+                         
+Get:34 http://deb.debian.org/debian bookworm/main amd64 libc-l10n all 2.36-9+deb12u7 [675 kB]
+[33m
+83% [34 libc-l10n 4,189 B/675 kB 1%][0m[33m
+                                    
+85% [Waiting for headers][0m
+                         
+Get:35 http://deb.debian.org/debian bookworm/main amd64 locales all 2.36-9+deb12u7 [3,902 kB]
+[33m
+85% [35 locales 1,825 B/3,902 kB 0%][0m[33m
+92% [35 locales 3,740 kB/3,902 kB 96%]                                                                                   6,567 kB/s 0s[0m[33m
+92% [Waiting for headers]                                                                                                6,567 kB/s 0s[0m
+                                                                                                                                      
+Get:36 http://deb.debian.org/debian bookworm/main amd64 libcurl3-gnutls amd64 7.88.1-10+deb12u6 [385 kB]
+[33m
+93% [36 libcurl3-gnutls 11.2 kB/385 kB 3%]                                                                               6,567 kB/s 0s[0m[33m
+94% [Waiting for headers]                                                                                                6,567 kB/s 0s[0m
+                                                                                                                                      
+Get:37 http://deb.debian.org/debian bookworm/main amd64 libdav1d6 amd64 1.0.0-2+deb12u1 [513 kB]
+[33m
+94% [37 libdav1d6 8,192 B/513 kB 2%]                                                                                     6,567 kB/s 0s[0m[33m
+95% [Working]                                                                                                            6,567 kB/s 0s[0m
+                                                                                                                                      
+Get:38 http://deb.debian.org/debian bookworm/main amd64 libfreetype6 amd64 2.12.1+dfsg-5+deb12u3 [398 kB]
+
+                                                                                                                                      
+Get:39 http://deb.debian.org/debian bookworm/main amd64 openssl amd64 3.0.13-1~deb12u1 [1,418 kB]
+[33m
+97% [39 openssl 271 kB/1,418 kB 19%]                                                                                     6,567 kB/s 0s[0m[33m
+99% [Waiting for headers]                                                                                                6,567 kB/s 0s[0m
+                                                                                                                                      
+Get:40 http://deb.debian.org/debian bookworm/main amd64 python-is-python3 all 3.11.2-1+deb12u1 [3,216 B]
+[33m
+100% [40 python-is-python3 3,216 B/3,216 B 100%]                                                                         6,567 kB/s 0s[0m[33m
+100% [Working]                                                                                                           6,567 kB/s 0s[0m
+                                                                                                                                      
+Fetched 43.4 MB in 7s (6,672 kB/s)
+
+Extracting templates from packages: 75%
+Extracting templates from packages: 100%
+Preconfiguring packages ...
+
+7[0;22r8[1A(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 29311 files and directories currently installed.)
+Preparing to unpack .../base-files_12.4+deb12u6_amd64.deb ...
+7[23;0f[42m[30mProgress: [  0%][49m[39m [.................................................................................................................] 8Unpacking base-files (12.4+deb12u6) over (12.4+deb12u5) ...
+7[23;0f[42m[30mProgress: [  1%][49m[39m [#................................................................................................................] 8Setting up base-files (12.4+deb12u6) ...
+Installing new version of config file /etc/debian_version ...
+7[23;0f[42m[30mProgress: [  2%][49m[39m [##...............................................................................................................] 8(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 29311 files and directories currently installed.)
+Preparing to unpack .../bash_5.2.15-2+b7_amd64.deb ...
+7[23;0f[42m[30mProgress: [  3%][49m[39m [###..............................................................................................................] 8Unpacking bash (5.2.15-2+b7) over (5.2.15-2+b2) ...
+Setting up bash (5.2.15-2+b7) ...
+7[23;0f[42m[30mProgress: [  4%][49m[39m [####.............................................................................................................] 8update-alternatives: using /usr/share/man/man7/bash-builtins.7.gz to provide /usr/share/man/man7/builtins.7.gz (builtins.7.gz) in auto mode
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 29311 files and directories currently installed.)
+Preparing to unpack .../libc-devtools_2.36-9+deb12u7_amd64.deb ...
+7[23;0f[42m[30mProgress: [  6%][49m[39m [######...........................................................................................................] 8Unpacking libc-devtools (2.36-9+deb12u7) over (2.36-9+deb12u6) ...
+7[23;0f[42m[30mProgress: [  6%][49m[39m [#######..........................................................................................................] 8Preparing to unpack .../libc6-dev_2.36-9+deb12u7_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.36-9+deb12u7) over (2.36-9+deb12u6) ...
+7[23;0f[42m[30mProgress: [  7%][49m[39m [########.........................................................................................................] 8Preparing to unpack .../libc-dev-bin_2.36-9+deb12u7_amd64.deb ...
+7[23;0f[42m[30mProgress: [  8%][49m[39m [#########........................................................................................................] 8Unpacking libc-dev-bin (2.36-9+deb12u7) over (2.36-9+deb12u6) ...
+Preparing to unpack .../linux-libc-dev_6.1.99-1_amd64.deb ...
+7[23;0f[42m[30mProgress: [  9%][49m[39m [##########.......................................................................................................] 8Unpacking linux-libc-dev:amd64 (6.1.99-1) over (6.1.85-1) ...
+Preparing to unpack .../libc6_2.36-9+deb12u7_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 11%][49m[39m [###########......................................................................................................] 8Unpacking libc6:amd64 (2.36-9+deb12u7) over (2.36-9+deb12u6) ...
+7[23;0f[42m[30mProgress: [ 11%][49m[39m [############.....................................................................................................] 8Setting up libc6:amd64 (2.36-9+deb12u7) ...
+7[23;0f[42m[30mProgress: [ 12%][49m[39m [##############...................................................................................................] 8(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 29311 files and directories currently installed.)
+Preparing to unpack .../libc-bin_2.36-9+deb12u7_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 13%][49m[39m [##############...................................................................................................] 8Unpacking libc-bin (2.36-9+deb12u7) over (2.36-9+deb12u6) ...
+Setting up libc-bin (2.36-9+deb12u7) ...
+7[23;0f[42m[30mProgress: [ 14%][49m[39m [################.................................................................................................] 8(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 29311 files and directories currently installed.)
+Preparing to unpack .../libseccomp2_2.5.4-1+deb12u1_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 15%][49m[39m [#################................................................................................................] 8Unpacking libseccomp2:amd64 (2.5.4-1+deb12u1) over (2.5.4-1+b3) ...
+Setting up libseccomp2:amd64 (2.5.4-1+deb12u1) ...
+7[23;0f[42m[30mProgress: [ 17%][49m[39m [##################...............................................................................................] 87[23;0f[42m[30mProgress: [ 17%][49m[39m [###################..............................................................................................] 8(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 29310 files and directories currently installed.)
+Preparing to unpack .../libssl3_3.0.13-1~deb12u1_amd64.deb ...
+Unpacking libssl3:amd64 (3.0.13-1~deb12u1) over (3.0.11-1~deb12u2) ...
+7[23;0f[42m[30mProgress: [ 18%][49m[39m [####################.............................................................................................] 8Setting up libssl3:amd64 (3.0.13-1~deb12u1) ...
+7[23;0f[42m[30mProgress: [ 19%][49m[39m [#####################............................................................................................] 8(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 29310 files and directories currently installed.)
+Preparing to unpack .../systemd_252.26-1~deb12u2_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 20%][49m[39m [######################...........................................................................................] 8Unpacking systemd (252.26-1~deb12u2) over (252.22-1~deb12u1) ...
+Preparing to unpack .../libsystemd-shared_252.26-1~deb12u2_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 21%][49m[39m [########################.........................................................................................] 8Unpacking libsystemd-shared:amd64 (252.26-1~deb12u2) over (252.22-1~deb12u1) ...
+7[23;0f[42m[30mProgress: [ 22%][49m[39m [########################.........................................................................................] 8Preparing to unpack .../libsystemd0_252.26-1~deb12u2_amd64.deb ...
+Unpacking libsystemd0:amd64 (252.26-1~deb12u2) over (252.22-1~deb12u1) ...
+7[23;0f[42m[30mProgress: [ 23%][49m[39m [##########################.......................................................................................] 8Setting up libsystemd0:amd64 (252.26-1~deb12u2) ...
+7[23;0f[42m[30mProgress: [ 25%][49m[39m [###########################......................................................................................] 8Setting up libsystemd-shared:amd64 (252.26-1~deb12u2) ...
+7[23;0f[42m[30mProgress: [ 25%][49m[39m [############################.....................................................................................] 8Setting up systemd (252.26-1~deb12u2) ...
+7[23;0f[42m[30mProgress: [ 26%][49m[39m [#############################....................................................................................] 8(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 29310 files and directories currently installed.)
+Preparing to unpack .../0-systemd-sysv_252.26-1~deb12u2_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 28%][49m[39m [###############################..................................................................................] 8Unpacking systemd-sysv (252.26-1~deb12u2) over (252.22-1~deb12u1) ...
+7[23;0f[42m[30mProgress: [ 28%][49m[39m [###############################..................................................................................] 8Preparing to unpack .../1-python3.11-dev_3.11.2-6+deb12u2_amd64.deb ...
+Unpacking python3.11-dev (3.11.2-6+deb12u2) over (3.11.2-6) ...
+7[23;0f[42m[30mProgress: [ 29%][49m[39m [#################################................................................................................] 8Preparing to unpack .../2-libpython3.11-dev_3.11.2-6+deb12u2_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 30%][49m[39m [#################################................................................................................] 8Unpacking libpython3.11-dev:amd64 (3.11.2-6+deb12u2) over (3.11.2-6) ...
+Preparing to unpack .../3-libpython3.11_3.11.2-6+deb12u2_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 31%][49m[39m [###################################..............................................................................] 8Unpacking libpython3.11:amd64 (3.11.2-6+deb12u2) over (3.11.2-6) ...
+Preparing to unpack .../4-python3.11-venv_3.11.2-6+deb12u2_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 33%][49m[39m [####################################.............................................................................] 8Unpacking python3.11-venv (3.11.2-6+deb12u2) over (3.11.2-6) ...
+7[23;0f[42m[30mProgress: [ 33%][49m[39m [#####################################............................................................................] 8Preparing to unpack .../5-python3.11_3.11.2-6+deb12u2_amd64.deb ...
+Unpacking python3.11 (3.11.2-6+deb12u2) over (3.11.2-6) ...
+7[23;0f[42m[30mProgress: [ 34%][49m[39m [######################################...........................................................................] 8Preparing to unpack .../6-libpython3.11-stdlib_3.11.2-6+deb12u2_amd64.deb ...
+Unpacking libpython3.11-stdlib:amd64 (3.11.2-6+deb12u2) over (3.11.2-6) ...
+7[23;0f[42m[30mProgress: [ 36%][49m[39m [########################################.........................................................................] 8Preparing to unpack .../7-python3.11-minimal_3.11.2-6+deb12u2_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 36%][49m[39m [########################################.........................................................................] 8Unpacking python3.11-minimal (3.11.2-6+deb12u2) over (3.11.2-6) ...
+Preparing to unpack .../8-libpython3.11-minimal_3.11.2-6+deb12u2_amd64.deb ...
+Unpacking libpython3.11-minimal:amd64 (3.11.2-6+deb12u2) over (3.11.2-6) ...
+7[23;0f[42m[30mProgress: [ 38%][49m[39m [##########################################.......................................................................] 8Preparing to unpack .../9-libgnutls30_3.7.9-2+deb12u3_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 38%][49m[39m [###########################################......................................................................] 8Unpacking libgnutls30:amd64 (3.7.9-2+deb12u3) over (3.7.9-2+deb12u2) ...
+Setting up libgnutls30:amd64 (3.7.9-2+deb12u3) ...
+7[23;0f[42m[30mProgress: [ 39%][49m[39m [############################################.....................................................................] 87[23;0f[42m[30mProgress: [ 40%][49m[39m [#############################################....................................................................] 8(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 29310 files and directories currently installed.)
+Preparing to unpack .../udev_252.26-1~deb12u2_amd64.deb ...
+Unpacking udev (252.26-1~deb12u2) over (252.22-1~deb12u1) ...
+7[23;0f[42m[30mProgress: [ 41%][49m[39m [##############################################...................................................................] 8Preparing to unpack .../libudev1_252.26-1~deb12u2_amd64.deb ...
+Unpacking libudev1:amd64 (252.26-1~deb12u2) over (252.22-1~deb12u1) ...
+7[23;0f[42m[30mProgress: [ 42%][49m[39m [###############################################..................................................................] 8Setting up libudev1:amd64 (252.26-1~deb12u2) ...
+7[23;0f[42m[30mProgress: [ 43%][49m[39m [################################################.................................................................] 8(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 29310 files and directories currently installed.)
+Preparing to unpack .../00-less_590-2.1~deb12u2_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 44%][49m[39m [#################################################................................................................] 8Unpacking less (590-2.1~deb12u2) over (590-2) ...
+Preparing to unpack .../01-nano_7.2-1+deb12u1_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 45%][49m[39m [###################################################..............................................................] 8Unpacking nano (7.2-1+deb12u1) over (7.2-1) ...
+7[23;0f[42m[30mProgress: [ 46%][49m[39m [####################################################.............................................................] 8Preparing to unpack .../02-libc-l10n_2.36-9+deb12u7_all.deb ...
+Unpacking libc-l10n (2.36-9+deb12u7) over (2.36-9+deb12u6) ...
+7[23;0f[42m[30mProgress: [ 47%][49m[39m [#####################################################............................................................] 8Preparing to unpack .../03-locales_2.36-9+deb12u7_all.deb ...
+Unpacking locales (2.36-9+deb12u7) over (2.36-9+deb12u6) ...
+7[23;0f[42m[30mProgress: [ 48%][49m[39m [######################################################...........................................................] 8Preparing to unpack .../04-libgssapi-krb5-2_1.20.1-2+deb12u2_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 49%][49m[39m [#######################################################..........................................................] 8Unpacking libgssapi-krb5-2:amd64 (1.20.1-2+deb12u2) over (1.20.1-2+deb12u1) ...
+Preparing to unpack .../05-libkrb5-3_1.20.1-2+deb12u2_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 50%][49m[39m [########################################################.........................................................] 8Unpacking libkrb5-3:amd64 (1.20.1-2+deb12u2) over (1.20.1-2+deb12u1) ...
+Preparing to unpack .../06-libkrb5support0_1.20.1-2+deb12u2_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 52%][49m[39m [##########################################################.......................................................] 8Unpacking libkrb5support0:amd64 (1.20.1-2+deb12u2) over (1.20.1-2+deb12u1) ...
+7[23;0f[42m[30mProgress: [ 52%][49m[39m [##########################################################.......................................................] 8Preparing to unpack .../07-libk5crypto3_1.20.1-2+deb12u2_amd64.deb ...
+Unpacking libk5crypto3:amd64 (1.20.1-2+deb12u2) over (1.20.1-2+deb12u1) ...
+7[23;0f[42m[30mProgress: [ 53%][49m[39m [############################################################.....................................................] 8Preparing to unpack .../08-openssh-client_1%3a9.2p1-2+deb12u3_amd64.deb ...
+Unpacking openssh-client (1:9.2p1-2+deb12u3) over (1:9.2p1-2+deb12u2) ...
+7[23;0f[42m[30mProgress: [ 55%][49m[39m [#############################################################....................................................] 8Preparing to unpack .../09-libaom3_3.6.0-1+deb12u1_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 55%][49m[39m [##############################################################...................................................] 8Unpacking libaom3:amd64 (3.6.0-1+deb12u1) over (3.6.0-1) ...
+Preparing to unpack .../10-libcurl3-gnutls_7.88.1-10+deb12u6_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 56%][49m[39m [###############################################################..................................................] 8Unpacking libcurl3-gnutls:amd64 (7.88.1-10+deb12u6) over (7.88.1-10+deb12u5) ...
+Preparing to unpack .../11-libdav1d6_1.0.0-2+deb12u1_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 58%][49m[39m [#################################################################................................................] 8Unpacking libdav1d6:amd64 (1.0.0-2+deb12u1) over (1.0.0-2) ...
+7[23;0f[42m[30mProgress: [ 58%][49m[39m [#################################################################................................................] 8Preparing to unpack .../12-libfreetype6_2.12.1+dfsg-5+deb12u3_amd64.deb ...
+Unpacking libfreetype6:amd64 (2.12.1+dfsg-5+deb12u3) over (2.12.1+dfsg-5) ...
+7[23;0f[42m[30mProgress: [ 59%][49m[39m [###################################################################..............................................] 8Preparing to unpack .../13-openssl_3.0.13-1~deb12u1_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 60%][49m[39m [###################################################################..............................................] 8Unpacking openssl (3.0.13-1~deb12u1) over (3.0.11-1~deb12u2) ...
+Preparing to unpack .../14-python-is-python3_3.11.2-1+deb12u1_all.deb ...
+7[23;0f[42m[30mProgress: [ 61%][49m[39m [#####################################################################............................................] 8Unpacking python-is-python3 (3.11.2-1+deb12u1) over (3.11.1-3) ...
+Setting up libaom3:amd64 (3.6.0-1+deb12u1) ...
+7[23;0f[42m[30mProgress: [ 62%][49m[39m [######################################################################...........................................] 87[23;0f[42m[30mProgress: [ 63%][49m[39m [#######################################################################..........................................] 8Setting up systemd-sysv (252.26-1~deb12u2) ...
+7[23;0f[42m[30mProgress: [ 64%][49m[39m [########################################################################.........................................] 8Setting up libc-l10n (2.36-9+deb12u7) ...
+7[23;0f[42m[30mProgress: [ 65%][49m[39m [#########################################################################........................................] 8Setting up less (590-2.1~deb12u2) ...
+7[23;0f[42m[30mProgress: [ 66%][49m[39m [##########################################################################.......................................] 8Setting up linux-libc-dev:amd64 (6.1.99-1) ...
+7[23;0f[42m[30mProgress: [ 67%][49m[39m [############################################################################.....................................] 8Setting up locales (2.36-9+deb12u7) ...
+7[23;0f[42m[30mProgress: [ 68%][49m[39m [#############################################################################....................................] 8Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
+7[23;0f[42m[30mProgress: [ 69%][49m[39m [##############################################################################...................................] 8Setting up libkrb5support0:amd64 (1.20.1-2+deb12u2) ...
+7[23;0f[42m[30mProgress: [ 70%][49m[39m [###############################################################################..................................] 8Setting up libfreetype6:amd64 (2.12.1+dfsg-5+deb12u3) ...
+7[23;0f[42m[30mProgress: [ 72%][49m[39m [################################################################################.................................] 8Setting up udev (252.26-1~deb12u2) ...
+7[23;0f[42m[30mProgress: [ 72%][49m[39m [#################################################################################................................] 8invoke-rc.d: could not determine current runlevel
+Setting up libk5crypto3:amd64 (1.20.1-2+deb12u2) ...
+7[23;0f[42m[30mProgress: [ 73%][49m[39m [##################################################################################...............................] 8Setting up libdav1d6:amd64 (1.0.0-2+deb12u1) ...
+7[23;0f[42m[30mProgress: [ 75%][49m[39m [####################################################################################.............................] 87[23;0f[42m[30mProgress: [ 75%][49m[39m [####################################################################################.............................] 8Setting up nano (7.2-1+deb12u1) ...
+Installing new version of config file /etc/nanorc ...
+7[23;0f[42m[30mProgress: [ 76%][49m[39m [######################################################################################...........................] 8Setting up libkrb5-3:amd64 (1.20.1-2+deb12u2) ...
+7[23;0f[42m[30mProgress: [ 78%][49m[39m [#######################################################################################..........................] 8Setting up libpython3.11-minimal:amd64 (3.11.2-6+deb12u2) ...
+7[23;0f[42m[30mProgress: [ 78%][49m[39m [########################################################################################.........................] 8Setting up libc-dev-bin (2.36-9+deb12u7) ...
+7[23;0f[42m[30mProgress: [ 79%][49m[39m [#########################################################################################........................] 87[23;0f[42m[30mProgress: [ 80%][49m[39m [##########################################################################################.......................] 8Setting up openssl (3.0.13-1~deb12u1) ...
+7[23;0f[42m[30mProgress: [ 81%][49m[39m [###########################################################################################......................] 8Setting up python-is-python3 (3.11.2-1+deb12u1) ...
+7[23;0f[42m[30mProgress: [ 82%][49m[39m [#############################################################################################....................] 8Setting up libc-devtools (2.36-9+deb12u7) ...
+7[23;0f[42m[30mProgress: [ 83%][49m[39m [#############################################################################################....................] 8Setting up python3.11-minimal (3.11.2-6+deb12u2) ...
+7[23;0f[42m[30mProgress: [ 84%][49m[39m [###############################################################################################..................] 8Setting up libpython3.11-stdlib:amd64 (3.11.2-6+deb12u2) ...
+7[23;0f[42m[30mProgress: [ 85%][49m[39m [################################################################################################.................] 87[23;0f[42m[30mProgress: [ 86%][49m[39m [#################################################################################################................] 8Setting up libgssapi-krb5-2:amd64 (1.20.1-2+deb12u2) ...
+7[23;0f[42m[30mProgress: [ 87%][49m[39m [##################################################################################################...............] 8Setting up libc6-dev:amd64 (2.36-9+deb12u7) ...
+7[23;0f[42m[30mProgress: [ 88%][49m[39m [###################################################################################################..............] 8Setting up python3.11 (3.11.2-6+deb12u2) ...
+7[23;0f[42m[30mProgress: [ 89%][49m[39m [####################################################################################################.............] 8Setting up libpython3.11:amd64 (3.11.2-6+deb12u2) ...
+7[23;0f[42m[30mProgress: [ 90%][49m[39m [######################################################################################################...........] 8Setting up openssh-client (1:9.2p1-2+deb12u3) ...
+7[23;0f[42m[30mProgress: [ 92%][49m[39m [#######################################################################################################..........] 87[23;0f[42m[30mProgress: [ 92%][49m[39m [########################################################################################################.........] 8Setting up libcurl3-gnutls:amd64 (7.88.1-10+deb12u6) ...
+7[23;0f[42m[30mProgress: [ 93%][49m[39m [#########################################################################################################........] 8Setting up python3.11-venv (3.11.2-6+deb12u2) ...
+7[23;0f[42m[30mProgress: [ 95%][49m[39m [##########################################################################################################.......] 8Setting up libpython3.11-dev:amd64 (3.11.2-6+deb12u2) ...
+7[23;0f[42m[30mProgress: [ 95%][49m[39m [###########################################################################################################......] 8Setting up python3.11-dev (3.11.2-6+deb12u2) ...
+7[23;0f[42m[30mProgress: [ 96%][49m[39m [############################################################################################################.....] 8Processing triggers for systemd (252.26-1~deb12u2) ...
+7[23;0f[42m[30mProgress: [ 98%][49m[39m [##############################################################################################################...] 87[23;0f[42m[30mProgress: [ 98%][49m[39m [##############################################################################################################...] 8Processing triggers for man-db (2.11.2-2) ...
+Processing triggers for debianutils (5.7-0.5~deb12u1) ...
+Processing triggers for libc-bin (2.36-9+deb12u7) ...
+7[23;0f[42m[30mProgress: [ 99%][49m[39m [################################################################################################################.] 8
+7[0;23r8[1A[J[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/apt [0;37m11:00:19 [44m 502 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-08-21 11:00:40+02:00 [COMMAND_EXIT_CODE="0"]
