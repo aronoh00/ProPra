@@ -1,0 +1,16 @@
+Script started on 2024-08-21 12:13:41+02:00 [TERM="xterm-256color" TTY="/dev/pts/25" COLUMNS="135" LINES="16"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/sudo [0;37m12:13:41 [44m 500 [40m
+$ su sudotest
+[?2004lPassword: 
+[?2004h]0;sudotest@DESKTOP-K02S42U: /home/aron/ws/propra/sudo[01;32msudotest@DESKTOP-K02S42U[00m:[01;34m/home/aron/ws/propra/sudo[00m$ [7mless /etc/shadow[27mless /etc/shadow
+[?2004l/etc/shadow: Permission denied
+[?2004h]0;sudotest@DESKTOP-K02S42U: /home/aron/ws/propra/sudo[01;32msudotest@DESKTOP-K02S42U[00m:[01;34m/home/aron/ws/propra/sudo[00m$ sudo [7mless /etc/shadow[27mless /etc/shadow
+[?2004l[sudo] password for sudotest: 
+sudotest is not in the sudoers file.
+[?2004h]0;sudotest@DESKTOP-K02S42U: /home/aron/ws/propra/sudo[01;32msudotest@DESKTOP-K02S42U[00m:[01;34m/home/aron/ws/propra/sudo[00m$ exit
+[?2004lexit
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/sudo [0;37m12:14:38 [44m 501 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-08-21 12:14:40+02:00 [COMMAND_EXIT_CODE="1"]

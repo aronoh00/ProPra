@@ -1,0 +1,32 @@
+Script started on 2024-08-21 11:46:48+02:00 [TERM="xterm-256color" TTY="/dev/pts/25" COLUMNS="135" LINES="17"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/sudo [0;37m11:46:48 [44m 500 [40m
+$ [7mless /etc/shadow[27m[C[Cless /etc/shadow
+[?2004l/etc/shadow: Permission denied
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/sudo [0;37m11:46:51 [44m 501 [40m
+$ sudo [7mless /etc/shadow[27m[C[C[C[C[C[C[Cless /etc/shadow
+[?2004l[sudo] password for aron: 
+[?1049h[22;0;0t[?1h=root:*:19807:0:99999:7:::
+daemon:*:19807:0:99999:7:::
+bin:*:19807:0:99999:7:::
+sys:*:19807:0:99999:7:::
+sync:*:19807:0:99999:7:::
+games:*:19807:0:99999:7:::
+man:*:19807:0:99999:7:::
+lp:*:19807:0:99999:7:::
+mail:*:19807:0:99999:7:::
+news:*:19807:0:99999:7:::
+uucp:*:19807:0:99999:7:::
+proxy:*:19807:0:99999:7:::
+www-data:*:19807:0:99999:7:::
+backup:*:19807:0:99999:7:::
+list:*:19807:0:99999:7:::
+irc:*:19807:0:99999:7:::
+[7m/etc/shadow[27m[K[K [KESCESC[KOO[KBB[K_apt:*:19807:0:99999:7:::
+:[K[K [KESCESC[KOO[KBB[Knobody:*:19807:0:99999:7:::
+:[K[K [KESCESC[KOO[KBB[Ksystemd-network:!*:19807::::::
+:[K[K [KESCESC[KOO[KBB[Karon:$y$j9T$BOQOLHupaWE5KfvNjjIEM0$Roq7jk85KALeS/3HXYexrykPdANIvEOPypL6n5vo2ZA:19838:0:99999:7:::
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/sudo [0;37m11:47:04 [44m 502 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-08-21 11:47:07+02:00 [COMMAND_EXIT_CODE="0"]

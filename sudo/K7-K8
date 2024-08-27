@@ -1,0 +1,31 @@
+Script started on 2024-08-21 12:10:10+02:00 [TERM="xterm-256color" TTY="/dev/pts/25" COLUMNS="135" LINES="16"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/sudo [0;37m12:10:10 [44m 500 [40m
+$ sudo [7musermod -aG sudo sudotest[27m[C[C[C[C[C[C[Cusermod -aG sudo sudotest
+[?2004l[sudo] password for aron: 
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/sudo [0;37m12:10:19 [44m 501 [40m
+$ su sudotesz[Kt
+[?2004lPassword: 
+[?2004h]0;sudotest@DESKTOP-K02S42U: /home/aron/ws/propra/sudo[01;32msudotest@DESKTOP-K02S42U[00m:[01;34m/home/aron/ws/propra/sudo[00m$ sudo [7mless /etc/shadow[27mless /etc/shadow
+[?2004l[sudo] password for sudotest: 
+[?1049h[22;0;0t[?1h=root:*:19807:0:99999:7:::
+daemon:*:19807:0:99999:7:::
+bin:*:19807:0:99999:7:::
+sys:*:19807:0:99999:7:::
+sync:*:19807:0:99999:7:::
+games:*:19807:0:99999:7:::
+man:*:19807:0:99999:7:::
+lp:*:19807:0:99999:7:::
+mail:*:19807:0:99999:7:::
+news:*:19807:0:99999:7:::
+uucp:*:19807:0:99999:7:::
+proxy:*:19807:0:99999:7:::
+www-data:*:19807:0:99999:7:::
+backup:*:19807:0:99999:7:::
+list:*:19807:0:99999:7:::
+[7m/etc/shadow[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;sudotest@DESKTOP-K02S42U: /home/aron/ws/propra/sudo[01;32msudotest@DESKTOP-K02S42U[00m:[01;34m/home/aron/ws/propra/sudo[00m$ exit
+[?2004lexit
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/sudo [0;37m12:11:10 [44m 502 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-08-21 12:11:14+02:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,36 @@
+Script started on 2024-08-21 11:53:46+02:00 [TERM="xterm-256color" TTY="/dev/pts/25" COLUMNS="135" LINES="17"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/sudo [0;37m11:53:46 [44m 500 [40m
+$ sudo adduser sudotest
+[?2004l[sudo] password for aron: 
+Adding user `sudotest' ...
+Adding new group `sudotest' (1002) ...
+Adding new user `sudotest' (1002) with group `sudotest (1002)' ...
+Creating home directory `/home/sudotest' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+No password has been supplied.
+New password: 
+Retype new password: 
+No password has been supplied.
+New password: 
+Retype new password: 
+No password has been supplied.
+passwd: Authentication token manipulation error
+passwd: password unchanged
+Try again? [y/N] n
+Changing the user information for sudotest
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+Adding new user `sudotest' to supplemental / extra groups `users' ...
+Adding user `sudotest' to group `users' ...
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/sudo [0;37m11:54:29 [44m 501 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-08-21 11:54:35+02:00 [COMMAND_EXIT_CODE="0"]
