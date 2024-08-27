@@ -1,2 +1,12 @@
-m_os.path: ACCEPT
-sorted_and_sort: ACCEPT
+CSSEinfuehrung: CHECK
+HTMLErsteSchritte: CHECK
+HTMLMedien: CHECK
+Python-List-Comprehensions: CHECK
+apt: CHECK
+m_argparse: CHECK
+m_hashlib: CHECK
+m_json2: CHECK
+m_pprint: CHECK
+m_subprocess: CHECK
+m_tempfile: CHECK
+sudo: CHECK
