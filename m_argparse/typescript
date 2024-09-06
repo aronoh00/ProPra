@@ -1,7 +1,10 @@
-Script started on 2024-08-18 19:47:54+02:00 [TERM="xterm-256color" TTY="/dev/pts/16" COLUMNS="109" LINES="13"]
-[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_argparse [0;37m19:47:54 [44m 501 [40m
+Script started on 2024-09-06 21:25:49+02:00 [TERM="xterm-256color" TTY="/dev/pts/16" COLUMNS="137" LINES="12"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_argparse [0;37m21:25:49 [44m 500 [40m
+
 $ python argparsetest.py -h
-[?2004lusage: argparsetest.py [-h] [-c CONFIG] [-m MAXDEPTH] -b BATCH [BATCH ...]
+[C[Cpython argparsetest.py -h
+[?2004l
+usage: argparsetest.py [-h] [-c CONFIG] [-m MAXDEPTH] -b BATCH [BATCH ...]
 
 options:
   -h, --help            show this help message and exit
@@ -11,21 +14,32 @@ options:
                         max depth
   -b BATCH [BATCH ...], --batch BATCH [BATCH ...]
                         list of batch files
-[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_argparse [0;37m19:48:32 [44m 502 [40m
-$ python argparsetest.py -h[Kb batch.txt batch [K2.txt
-[?2004lconfig: argparse.config
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_argparse [0;37m21:25:59 [44m 501 [40m
+
+$ python argparsetest.py -b batch.txt batch2.txt
+[C[Cpython argparsetest.py -b batch.txt batch2.txt
+[?2004l
+config: argparse.config
 maxdepth: 1
 batch: ['batch.txt', 'batch2.txt']
-[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_argparse [0;37m19:48:53 [44m 503 [40m
-$ python argparsetest.py -b batch.txt batch2.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
-[?2004lusage: argparsetest.py [-h] [-c CONFIG] [-m MAXDEPTH] -b BATCH [BATCH ...]
-argparsetest.py: error: the following arguments are required: -b/--batch
-[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_argparse [0;37m19:49:17 [44m 504 [40m
-$ python argparsetest.py -b batch.txt batch2.txt[K[K[K[K[K[K[K[K[K[K-d txt.t[K[K[K[Kext.txt
-[?2004lusage: argparsetest.py [-h] [-c CONFIG] [-m MAXDEPTH] -b BATCH [BATCH ...]
-argparsetest.py: error: argument -m/--maxdepth/--depth/-d: invalid int value: 'text.txt'
-[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_argparse [0;37m19:49:54 [44m 505 [40m
-$ exit
-[?2004lexit
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_argparse [0;37m21:26:09 [44m 502 [40m
 
-Script done on 2024-08-18 19:49:57+02:00 [COMMAND_EXIT_CODE="2"]
+$ python argparsetest.py -b batch.txt -d text.txt[27m
+[C[Cpython argparsetest.py -b batch.txt -d text.txt
+[?2004l
+usage: argparsetest.py [-h] [-c CONFIG] [-m MAXDEPTH] -b BATCH [BATCH ...]
+argparsetest.py: error: argument -m/--maxdepth/--depth/-d: invalid int value: 'text.txt'
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_argparse [0;37m21:26:20 [44m 503 [40m
+
+$ python argparsetest.py -c config.txt -m 3
+[C[Cpython argparsetest.py -c config.txt -m 3
+[?2004l
+usage: argparsetest.py [-h] [-c CONFIG] [-m MAXDEPTH] -b BATCH [BATCH ...]
+argparsetest.py: error: the following arguments are required: -b/--batch
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_argparse [0;37m21:26:29 [44m 504 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-09-06 21:26:32+02:00 [COMMAND_EXIT_CODE="2"]
