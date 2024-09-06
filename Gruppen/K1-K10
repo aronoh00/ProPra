@@ -1,0 +1,92 @@
+Script started on 2024-08-28 11:08:41+02:00 [TERM="xterm-256color" TTY="/dev/pts/27" COLUMNS="137" LINES="15"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Gruppen [0;37m11:08:41 [44m 500 [40m
+
+$ sudo adduser nutzer1
+[?2004l
+[sudo] password for aron: 
+Adding user `nutzer1' ...
+Adding new group `nutzer1' (1003) ...
+Adding new user `nutzer1' (1003) with group `nutzer1 (1003)' ...
+Creating home directory `/home/nutzer1' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for nutzer1
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+Adding new user `nutzer1' to supplemental / extra groups `users' ...
+Adding user `nutzer1' to group `users' ...
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Gruppen [0;37m11:09:45 [44m 501 [40m
+
+$ sudo adduser nutzer2
+[?2004l
+Adding user `nutzer2' ...
+Adding new group `nutzer2' (1004) ...
+Adding new user `nutzer2' (1004) with group `nutzer2 (1004)' ...
+Creating home directory `/home/nutzer2' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for nutzer2
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+Adding new user `nutzer2' to supplemental / extra groups `users' ...
+Adding user `nutzer2' to group `users' ...
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Gruppen [0;37m11:10:16 [44m 502 [40m
+
+$ sudo groupadd propra
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Gruppen [0;37m11:19:08 [44m 503 [40m
+
+$ sudo usermod -aG propra nutzer1
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Gruppen [0;37m11:20:33 [44m 504 [40m
+
+$ su - nutzer1
+[?2004l
+Password: 
+[?2004h]0;nutzer1@DESKTOP-K02S42U: ~[01;32mnutzer1@DESKTOP-K02S42U[00m:[01;34m~[00m$ 
+[K
+]0;nutzer1@DESKTOP-K02S42U: ~[01;32mnutzer1@DESKTOP-K02S42U[00m:[01;34m~[00m$ echo "ich bin datei1" > datei1
+[?2004l
+[?2004h]0;nutzer1@DESKTOP-K02S42U: ~[01;32mnutzer1@DESKTOP-K02S42U[00m:[01;34m~[00m$ chmod 770 datei1
+[?2004l
+[?2004h]0;nutzer1@DESKTOP-K02S42U: ~[01;32mnutzer1@DESKTOP-K02S42U[00m:[01;34m~[00m$ su - aron
+[?2004l
+Password: 
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~ [0;37m11:33:08 [44m 500 [40m
+
+
+$ cd ws/propra/Gruppen/
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Gruppen [0;37m11:34:33 [44m 502 [40m
+
+
+$ sudo chgrp propra /home/nutzer1/datei1
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Gruppen [0;37m11:44:22 [44m 504 [40m
+
+$ su-  - nutzer2
+[?2004l
+Password: 
+[?2004h]0;nutzer2@DESKTOP-K02S42U: ~[01;32mnutzer2@DESKTOP-K02S42U[00m:[01;34m~[00m$ cat /home/nutzer1/datei1
+[?2004l
+cat: /home/nutzer1/datei1: Permission denied
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-08-28 11:53:37+02:00 [COMMAND_EXIT_CODE="0"]

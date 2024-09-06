@@ -1,0 +1,90 @@
+Script started on 2024-08-28 12:02:25+02:00 [TERM="xterm-256color" TTY="/dev/pts/28" COLUMNS="121" LINES="17"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Gruppen [0;37m12:02:25 [44m 500 [40m
+
+$ su - nutzer1
+[?2004l
+Password: 
+[?2004h]0;nutzer1@DESKTOP-K02S42U: ~[01;32mnutzer1@DESKTOP-K02S42U[00m:[01;34m~[00m$ echo "ich bin datei2" > datei2
+[?2004l
+[?2004h]0;nutzer1@DESKTOP-K02S42U: ~[01;32mnutzer1@DESKTOP-K02S42U[00m:[01;34m~[00m$ ls -l
+[?2004l
+total 8
+-rwxrwx--- 1 nutzer1 propra  15 Aug 28 11:27 [0m[01;32mdatei1[0m
+-rw-r--r-- 1 nutzer1 nutzer1 15 Aug 28 12:03 datei2
+[?2004h]0;nutzer1@DESKTOP-K02S42U: ~[01;32mnutzer1@DESKTOP-K02S42U[00m:[01;34m~[00m$ su - aron
+[?2004l
+Password: 
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~ [0;37m12:04:58 [44m 500 [40m
+
+$ cd ws/prpra/Gruppen/
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Gruppen [0;37m12:05:24 [44m 501 [40m
+
+$ sudo addgroup standard
+[?2004l
+[sudo] password for aron: 
+Adding group `standard' (GID 1006) ...
+Done.
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Gruppen [0;37m12:08:24 [44m 502 [40m
+
+$ sudo usermod -g standard nutzer1
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Gruppen [0;37m12:10:30 [44m 503 [40m
+
+$ su - nutzer1
+[?2004l
+Password: 
+[?2004h]0;nutzer1@DESKTOP-K02S42U: ~[01;32mnutzer1@DESKTOP-K02S42U[00m:[01;34m~[00m$ touch datei3
+[?2004l
+[?2004h]0;nutzer1@DESKTOP-K02S42U: ~[01;32mnutzer1@DESKTOP-K02S42U[00m:[01;34m~[00m$ ls -l
+[?2004l
+total 8
+-rwxrwx--- 1 nutzer1 propra   15 Aug 28 11:27 [0m[01;32mdatei1[0m
+-rw-r--r-- 1 nutzer1 standard 15 Aug 28 12:03 datei2
+-rw-r--r-- 1 nutzer1 standard  0 Aug 28 12:11 datei3
+[?2004h]0;nutzer1@DESKTOP-K02S42U: ~[01;32mnutzer1@DESKTOP-K02S42U[00m:[01;34m~[00m$ su - aron
+[?2004l
+Password: 
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~ [0;37m12:12:32 [44m 500 [40m
+
+$ sudo usermod -g nutzer1 nutzer1
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~ [0;37m12:13:26 [44m 501 [40m
+
+$ sudo deluser --remove-home nutzer1
+[?2004l
+Looking for files to backup/remove ...
+Removing files ...
+Removing crontab ...
+Removing user `nutzer1' ...
+userdel: user nutzer1 is currently used by process 1741
+deluser: `/usr/sbin/userdel nutzer1' returned error code 8. Exiting.
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~ [0;37m12:15:45 [44m 502 [40m
+
+$ sudo deluser --remove-home nutzer2
+[?2004l
+Looking for files to backup/remove ...
+Removing files ...
+Removing crontab ...
+Removing user `nutzer2' ...
+userdel: user nutzer2 is currently used by process 2548
+deluser: `/usr/sbin/userdel nutzer2' returned error code 8. Exiting.
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~ [0;37m12:15:54 [44m 503 [40m
+
+$ sudo delgroup propra
+[?2004l
+Removing group `propra' ...
+Done.
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~ [0;37m12:16:34 [44m 504 [40m
+
+$ sudo delgroup standard
+[?2004l
+Removing group `standard' ...
+Done.
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~ [0;37m12:16:46 [44m 505 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-08-28 12:17:06+02:00 [COMMAND_EXIT_CODE="0"]
