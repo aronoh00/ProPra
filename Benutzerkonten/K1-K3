@@ -1,0 +1,15 @@
+Script started on 2024-08-26 11:15:37+02:00 [TERM="xterm-256color" TTY="/dev/pts/25" COLUMNS="135" LINES="21"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m11:15:37 [44m 500 [40m
+$ sudo useradd user1
+[?2004l[sudo] password for aron: 
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m11:16:09 [44m 501 [40m
+$ [7mgrep user1 /etc/passwd[27m[C[Cgrep user1 /etc/passwd
+[?2004luser1:x:1003:1003::/home/user1:/bin/sh
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m11:17:12 [44m 502 [40m
+$ ls -ld /home/user1
+[?2004lls: cannot access '/home/user1': No such file or directory
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m11:23:08 [44m 503 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-08-26 11:23:27+02:00 [COMMAND_EXIT_CODE="2"]
