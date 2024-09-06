@@ -1,0 +1,8 @@
+Script started on 2024-09-06 21:44:56+02:00 [TERM="xterm-256color" TTY="/dev/pts/16" COLUMNS="137" LINES="12"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/flake8 [0;37m21:44:56 [44m 500 [40m
+$ flake8 --ignore=E501 m_os.path.py
+[?2004l[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/flake8 [0;37m21:45:28 [44m 501 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-09-06 21:45:32+02:00 [COMMAND_EXIT_CODE="0"]

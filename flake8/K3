@@ -1,0 +1,121 @@
+Script started on 2024-09-02 16:40:01+02:00 [TERM="xterm-256color" TTY="/dev/pts/16" COLUMNS="137" LINES="12"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/flake8 [0;37m16:40:01 [44m 500 [40m
+$ exit[C[Cgit show HEAD
+[?2004l[?1h=[33mcommit 22f84c10cd97f21932b71e3078acba393b080e99[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: Aron Huth <aronoh00@zedat.fu-berlin.de>[m
+Date:   Mon Sep 2 16:37:36 2024 +0200[m
+[m
+    mit flake8 überarbeitet[m
+[m
+[1mdiff --git a/m_os.path/m_os_path.py b/m_os.path/m_os_path.py[m[m
+[1mindex de0f726..c3df8f6 100644[m[m
+[1m--- a/m_os.path/m_os_path.py[m[m
+[1m+++ b/m_os.path/m_os_path.py[m[m
+[36m@@ -1,29 +1,29 @@[m[m
+:[K[K [KESCESC[KOO[KBB[K import os[m[m
+:[K[K [KESCESC[KOO[KBB[K import collections[m[m
+:[K[K [KESCESC[KOO[KBB[K [m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-#A3[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m# A3[m[m
+:[K[K [KESCESC[KOO[KBB[K home = os.path.expanduser("~")[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-print ("home directory: ", home)[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mprint("home directory: ", home)[m[m
+:[K[K [KESCESC[KOO[KBB[K [m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-#A4[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m# A4[m[m
+:[K[K [KESCESC[KOO[KBB[K path_exists = os.path.exists(home)[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-print ("home directory exists: ", path_exists)[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mprint("home directory exists: ", path_exists)[m[m
+:[K[K [KESCESC[KOO[KBB[K [m[m
+:[K[K [KESCESC[KOO[KBB[K [m[m
+:[K[K [KESCESC[KOO[KBB[K if path_exists:[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    [m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    #A5[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    # A5[m[m
+:[K[K [KESCESC[KOO[KBB[K     content = os.listdir(home)[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    print ("home directory content: ", content)[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    print("home directory content: ", content)[m[m
+:[K[K [KESCESC[KOO[KBB[K     absolute_path = [os.path.join(home, item) for item in content][m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    [m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    #A6[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    # A6[m[m
+:[K[K [KESCESC[KOO[KBB[K     if len(absolute_path) >= 3:[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-        print ("an entry in the home directory: ", absolute_path[2])[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m        print("an entry in the home directory: ", absolute_path[2])[m[m
+:[K[K [KESCESC[KOO[KBB[K     else:[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-        print ("home directory does not have enough entries")[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m        print("home directory does not have enough entries")[m[m
+:[K[K [KESCESC[KOO[KBB[K [m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    #A7[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    # A7[m[m
+:[K[K [KESCESC[KOO[KBB[K     direct = 0[m[m
+:[K[K [KESCESC[KOO[KBB[K     file = 0[m[m
+:[K[K [KESCESC[KOO[KBB[K     for item in absolute_path:[m[m
+:[K[K [KESCESC[KOO[KBB[K[36m@@ -32,10 +32,10 @@[m [mif path_exists:[m[m
+:[K[K [KESCESC[KOO[KBB[K         elif os.path.isfile(item):[m[m
+:[K[K [KESCESC[KOO[KBB[K             file += 1[m[m
+:[K[K [KESCESC[KOO[KBB[K [m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    print ("number of directories: ", direct)[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    print ("number of files: ", file)[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    print("number of directories: ", direct)[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    print("number of files: ", file)[m[m
+:[K[K [KESCESC[KOO[KBB[K [m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    #A8[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    # A8[m[m
+:[K[K [KESCESC[KOO[KBB[K     biggist_file = None[m[m
+:[K[K [KESCESC[KOO[KBB[K     biggist_size = 0[m[m
+:[K[K [KESCESC[KOO[KBB[K [m[m
+:[K[K [KESCESC[KOO[KBB[K[36m@@ -64,30 +64,29 @@[m [mif path_exists:[m[m
+:[K[K [KESCESC[KOO[KBB[K                 last_canged_time = changed_time[m[m
+:[K[K [KESCESC[KOO[KBB[K                 last_canged_file = item[m[m
+:[K[K [KESCESC[KOO[KBB[K             extension.append(os.path.splitext(item)[1])[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    [m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    extension_counter = collections.Counter(extension)[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    most_common_extension = extension_counter.most_common(1)[0][0] if extension_counter else "None"[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    print ("biggist file: ", biggist_file)[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    print ("last created file: ", last_craeted_file)[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    print ("last changed file: ", last_canged_file)[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    if most_common_extension == "": print ("most common extension: \"\" ")[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-    [m[m
+:[K[K [KESCESC[KOO[KBB[K [m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    extension_counter = collections.Counter(extension)[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    most_common_extension = extension_counter.most_common(1)[0][0] if extension_counter else "None" # noqa E501[m[m
+:[K[K [KESCESC[KOO[KBB[K [m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    print("biggist file: ", biggist_file)[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    print("last created file: ", last_craeted_file)[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    print("last changed file: ", last_canged_file)[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    if most_common_extension == "":[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m        print("most common extension: \"\" ")[m[m
+:[K[K [KESCESC[KOO[KBB[K [m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-else: print ("home directory does not exist")[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32melse:[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m    print("home directory does not exist")[m[m
+:[K[K [KESCESC[KOO[KBB[K [m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-#A9[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m# A9[m[m
+:[K[K [KESCESC[KOO[KBB[K cwd = os.getcwd()[m[m
+:[K[K [KESCESC[KOO[KBB[K relativ_path = os.path.relpath(cwd, home)[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-print ("relative path from home to cwd: ", relativ_path)[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mprint("relative path from home to cwd: ", relativ_path)[m[m
+:[K[K [KESCESC[KOO[KBB[K [m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-#A10[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m# A10[m[m
+:[K[K [KESCESC[KOO[KBB[K relativ_path_to_home = os.path.join(home, cwd)[m[m
+:[K[K [KESCESC[KOO[KBB[K path_home_to_cwd_and_back = os.path.join(cwd, relativ_path_to_home)[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-print ("path from home to cwd and back: ", path_home_to_cwd_and_back)[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mprint("path from home to cwd and back: ", path_home_to_cwd_and_back)[m[m
+:[K[K [KESCESC[KOO[KBB[K [m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-#A11[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m# A11[m[m
+:[K[K [KESCESC[KOO[KBB[K path_normilized = os.path.normpath(path_home_to_cwd_and_back)[m[m
+:[K[K [KESCESC[KOO[KBB[K[31m-print ("relativ path normilized: ", path_normilized)[m[m
+:[K[K [KESCESC[KOO[KBB[K\ No newline at end of file[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mprint("relativ path normilized: ", path_normilized)[m[m
+:[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[?1l>[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/flake8 [0;37m16:40:13 [44m 501 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-09-02 16:40:17+02:00 [COMMAND_EXIT_CODE="0"]

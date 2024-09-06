@@ -1,0 +1,20 @@
+Script started on 2024-09-02 15:36:34+02:00 [TERM="xterm-256color" TTY="/dev/pts/16" COLUMNS="137" LINES="19"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/flake8 [0;37m15:36:34 [44m 500 [40m
+$ [7mpython -m pip install flake8[27m[C[Cpython -m pip install flake8
+[?2004lCollecting flake8
+  Downloading flake8-7.1.1-py2.py3-none-any.whl (57 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/57.7 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━[0m [32m51.2/57.7 kB[0m [31m1.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m57.7/57.7 kB[0m [31m820.2 kB/s[0m eta [36m0:00:00[0m
+[?25hCollecting mccabe<0.8.0,>=0.7.0
+  Downloading mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+Collecting pycodestyle<2.13.0,>=2.12.0
+  Downloading pycodestyle-2.12.1-py2.py3-none-any.whl (31 kB)
+Collecting pyflakes<3.3.0,>=3.2.0
+  Downloading pyflakes-3.2.0-py2.py3-none-any.whl (62 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/62.7 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m62.7/62.7 kB[0m [31m3.0 MB/s[0m eta [36m0:00:00[0m
+[?25hInstalling collected packages: pyflakes, pycodestyle, mccabe, flake8
+Successfully installed flake8-7.1.1 mccabe-0.7.0 pycodestyle-2.12.1 pyflakes-3.2.0
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/flake8 [0;37m15:36:39 [44m 501 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-09-02 15:36:45+02:00 [COMMAND_EXIT_CODE="0"]

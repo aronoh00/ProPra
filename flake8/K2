@@ -1,0 +1,41 @@
+Script started on 2024-09-02 15:45:55+02:00 [TERM="xterm-256color" TTY="/dev/pts/16" COLUMNS="137" LINES="15"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/flake8 [0;37m15:45:55 [44m 500 [40m
+$ flake8 [7m/home/aron/ws/propra/m_os.path/m_os_path.py[27m[C[C[C[C[C[C[C[C[C/home/aron/ws/propra/m_os.path/m_os_path.py
+[?2004l[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m4[36m:[m1[36m:[m [1m[31mE265[m block comment should start with '# '
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m6[36m:[m6[36m:[m [1m[31mE211[m whitespace before '('
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mE265[m block comment should start with '# '
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m10[36m:[m6[36m:[m [1m[31mE211[m whitespace before '('
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m14[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m15[36m:[m5[36m:[m [1m[31mE265[m block comment should start with '# '
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m17[36m:[m10[36m:[m [1m[31mE211[m whitespace before '('
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m19[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m20[36m:[m5[36m:[m [1m[31mE265[m block comment should start with '# '
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m22[36m:[m14[36m:[m [1m[31mE211[m whitespace before '('
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m24[36m:[m14[36m:[m [1m[31mE211[m whitespace before '('
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m26[36m:[m5[36m:[m [1m[31mE265[m block comment should start with '# '
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m35[36m:[m10[36m:[m [1m[31mE211[m whitespace before '('
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m36[36m:[m10[36m:[m [1m[31mE211[m whitespace before '('
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m38[36m:[m5[36m:[m [1m[31mE265[m block comment should start with '# '
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m67[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m69[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m71[36m:[m10[36m:[m [1m[31mE211[m whitespace before '('
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m72[36m:[m10[36m:[m [1m[31mE211[m whitespace before '('
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m73[36m:[m10[36m:[m [1m[31mE211[m whitespace before '('
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m74[36m:[m35[36m:[m [1m[31mE701[m multiple statements on one line (colon)
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m74[36m:[m42[36m:[m [1m[31mE211[m whitespace before '('
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m75[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m79[36m:[m1[36m:[m [1m[31mE303[m too many blank lines (4)
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m79[36m:[m5[36m:[m [1m[31mE701[m multiple statements on one line (colon)
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m79[36m:[m12[36m:[m [1m[31mE211[m whitespace before '('
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m81[36m:[m1[36m:[m [1m[31mE265[m block comment should start with '# '
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m84[36m:[m6[36m:[m [1m[31mE211[m whitespace before '('
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m86[36m:[m1[36m:[m [1m[31mE265[m block comment should start with '# '
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m89[36m:[m6[36m:[m [1m[31mE211[m whitespace before '('
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m91[36m:[m1[36m:[m [1m[31mE265[m block comment should start with '# '
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m93[36m:[m6[36m:[m [1m[31mE211[m whitespace before '('
+[1m/home/aron/ws/propra/m_os.path/m_os_path.py[m[36m:[m93[36m:[m53[36m:[m [1m[31mW292[m no newline at end of file
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/flake8 [0;37m15:46:05 [44m 501 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-09-02 15:46:08+02:00 [COMMAND_EXIT_CODE="1"]
