@@ -1,0 +1,11 @@
+Script started on 2024-08-27 12:07:05+02:00 [TERM="xterm-256color" TTY="/dev/pts/27" COLUMNS="137" LINES="15"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Dateiberechtigungen [0;37m12:07:05 [44m 500 [40m
+$ touch Dateiberechtigungen1
+[?2004l[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Dateiberechtigungen [0;37m12:07:22 [44m 501 [40m
+$ ls -l Dateiberechtigungen1
+[?2004l-rw-r--r-- 1 aron aron 0 Aug 27 12:07 Dateiberechtigungen1
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Dateiberechtigungen [0;37m12:08:41 [44m 502 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-08-27 12:08:51+02:00 [COMMAND_EXIT_CODE="0"]

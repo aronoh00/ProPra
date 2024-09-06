@@ -1,0 +1,58 @@
+Script started on 2024-08-27 12:15:28+02:00 [TERM="xterm-256color" TTY="/dev/pts/27" COLUMNS="137" LINES="15"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Dateiberechtigungen [0;37m12:15:28 [44m 500 [40m
+
+$ sudo adduser rechtenutzer
+[?2004l
+[sudo] password for aron: 
+Adding user `rechtenutzer' ...
+Adding new group `rechtenutzer' (1003) ...
+Adding new user `rechtenutzer' (1003) with group `rechtenutzer (1003)' ...
+Creating home directory `/home/rechtenutzer' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for rechtenutzer
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+Adding new user `rechtenutzer' to supplemental / extra groups `users' ...
+Adding user `rechtenutzer' to group `users' ...
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Dateiberechtigungen [0;37m12:15:55 [44m 501 [40m
+
+$ chmod 770 Dateiberechtigungen1
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Dateiberechtigungen [0;37m12:24:28 [44m 504 [40m
+
+$ sudo chown rechtenutzer Dateiberechtigungen1
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Dateiberechtigungen [0;37m12:27:25 [44m 505 [40m
+
+$ sudo chgrp -c -R rechtenutzer Dateiberechtigungen1
+[?2004l
+changed group of 'Dateiberechtigungen1' from aron to rechtenutzer
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Dateiberechtigungen [0;37m12:31:28 [44m 506 [40m
+
+$ sudo rm Dateiberechtigungen1
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Dateiberechtigungen [0;37m12:33:08 [44m 507 [40m
+
+$ sudo deluser --remove-home
+[?2004l
+Enter a user name to remove: rechtenutzer
+Looking for files to backup/remove ...
+Removing files ...
+Removing crontab ...
+Removing user `rechtenutzer' ...
+Done.
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Dateiberechtigungen [0;37m12:35:16 [44m 508 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-08-27 12:35:20+02:00 [COMMAND_EXIT_CODE="0"]
