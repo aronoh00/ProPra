@@ -1,6 +1,6 @@
-Benutzerkonten: CHECK
-Dateiberechtigungen: CHECK
-Gruppen: CHECK
-PEP8: CHECK
-flake8: CHECK
-m_argparse: CHECK
+Benutzerkonten: ACCEPT
+Dateiberechtigungen: ACCEPT
+Gruppen: ACCEPT
+PEP8: ACCEPT
+flake8: ACCEPT
+m_argparse: ACCEPT
