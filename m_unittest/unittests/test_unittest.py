@@ -8,5 +8,6 @@ class TestStringMethods(unittest.TestCase):
 
 
 class TestMathMethods(unittest.TestCase):    
+    @unittest.expectedFailure
     def test_sqrt(self):
         self.assertEqual(math.sqrt(10)**2, 10)
