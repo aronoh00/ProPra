@@ -1,0 +1,21 @@
+Script started on 2024-09-20 11:50:36+02:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="138" LINES="10"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m11:50:36 [44m 497 [40m
+
+$ sudo chgrp rechnungswesen ~/ws/propra/ACL/tmp/rechnungen
+[?2004l
+[sudo] password for aron: 
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m11:50:53 [44m 498 [40m
+
+$ sudo setfacl -m g:geschaeftsfuehrer:r-x ~/ws/propra/ACL/tmp/rechnungen
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m11:51:10 [44m 499 [40m
+
+$ sudo setfacl -m g:geschaeftsfuehrer:rwx ~/ws/propra/ACL/tmp/rechnungen/neu
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m11:51:22 [44m 500 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-09-20 11:51:25+02:00 [COMMAND_EXIT_CODE="0"]

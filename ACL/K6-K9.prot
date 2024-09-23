@@ -1,0 +1,85 @@
+Script started on 2024-09-16 15:44:23+02:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="129" LINES="11"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:44:23 [44m 501 [40m
+
+$ mkdir tmp
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:44:33 [44m 502 [40m
+
+$ cd tmp/
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL/tmp [0;37m15:44:37 [44m 503 [40m
+
+$ mkdir rechnungen
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL/tmp [0;37m15:44:52 [44m 504 [40m
+
+$ cd rechnungen/
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL/tmp/rechnungen [0;37m15:44:58 [44m 505 [40m
+
+$ mkdir aktuell
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL/tmp/rechnungen [0;37m15:45:22 [44m 506 [40m
+
+$ mkdir neu
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL/tmp/rechnungen [0;37m15:45:30 [44m 507 [40m
+
+$ cd aktuell/
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL/tmp/rechnungen/aktuell [0;37m15:45:37 [44m 508 [40m
+
+$ touch rechnung1
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL/tmp/rechnungen/aktuell [0;37m15:46:01 [44m 509 [40m
+
+$ touch rechnung2
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL/tmp/rechnungen/aktuell [0;37m15:46:05 [44m 510 [40m
+
+$ cd ..
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL/tmp/rechnungen [0;37m15:46:08 [44m 511 [40m
+
+$ cd neu
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL/tmp/rechnungen/neu [0;37m15:46:15 [44m 512 [40m
+
+$ touch rechnung17
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL/tmp/rechnungen/neu [0;37m15:46:37 [44m 513 [40m
+
+$ touch rechnung18
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL/tmp/rechnungen/neu [0;37m15:46:41 [44m 514 [40m
+
+$ cd ..
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL/tmp/rechnungen [0;37m15:46:54 [44m 515 [40m
+
+$ cd ..
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL/tmp [0;37m15:46:55 [44m 516 [40m
+
+$ cd ..
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:46:57 [44m 517 [40m
+
+$ sudo chown -R aron:aron /tmp
+[?2004l
+[sudo] password for aron: 
+chown: changing ownership of '/tmp/.X11-unix/X0': Read-only file system
+chown: changing ownership of '/tmp/.X11-unix': Read-only file system
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:49:37 [44m 518 [40m
+
+$ sudo chmod -R 770 /tmp
+[?2004l
+chmod: changing permissions of '/tmp/.X11-unix': Read-only file system
+chmod: changing permissions of '/tmp/.X11-unix/X0': Read-only file system
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:50:15 [44m 519 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-09-16 15:50:22+02:00 [COMMAND_EXIT_CODE="1"]

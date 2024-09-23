@@ -1,0 +1,125 @@
+Script started on 2024-09-16 15:38:11+02:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="129" LINES="11"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:38:11 [44m 501 [40m
+
+$ sudo adduser gf1
+[?2004l
+[sudo] password for aron: 
+Adding user `gf1' ...
+Adding new group `gf1' (1005) ...
+Adding new user `gf1' (1005) with group `gf1 (1005)' ...
+Creating home directory `/home/gf1' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for gf1
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+Adding new user `gf1' to supplemental / extra groups `users' ...
+Adding user `gf1' to group `users' ...
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:38:46 [44m 502 [40m
+
+$ sudo adduser gf2
+[?2004l
+Adding user `gf2' ...
+Adding new group `gf2' (1006) ...
+Adding new user `gf2' (1006) with group `gf2 (1006)' ...
+Creating home directory `/home/gf2' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for gf2
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+Adding new user `gf2' to supplemental / extra groups `users' ...
+Adding user `gf2' to group `users' ...
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:39:03 [44m 503 [40m
+
+$ sudo adduser rewe1
+[?2004l
+Adding user `rewe1' ...
+Adding new group `rewe1' (1007) ...
+Adding new user `rewe1' (1007) with group `rewe1 (1007)' ...
+Creating home directory `/home/rewe1' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for rewe1
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+Adding new user `rewe1' to supplemental / extra groups `users' ...
+Adding user `rewe1' to group `users' ...
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:39:24 [44m 504 [40m
+
+$ sudo adduser rewe2
+[?2004l
+Adding user `rewe2' ...
+Adding new group `rewe2' (1008) ...
+Adding new user `rewe2' (1008) with group `rewe2 (1008)' ...
+Creating home directory `/home/rewe2' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for rewe2
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+Adding new user `rewe2' to supplemental / extra groups `users' ...
+Adding user `rewe2' to group `users' ...
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:39:38 [44m 505 [40m
+
+$ sudo addgroup geschaeftsfuehrer
+[?2004l
+Adding group `geschaeftsfuehrer' (GID 1009) ...
+Done.
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:40:14 [44m 506 [40m
+
+$ sudo addgroup rechnungswesen
+[?2004l
+Adding group `rechnungswesen' (GID 1010) ...
+Done.
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:40:32 [44m 507 [40m
+
+$ sudo usermod -aG geschaeftsfuehrer gf1
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:41:30 [44m 508 [40m
+
+$ sudo usermod -aG geschaeftsfuehrer gf2
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:41:35 [44m 509 [40m
+
+$ sudo usermod -aG rechnungswesen rewe1
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:41:53 [44m 510 [40m
+
+$ sudo usermod -aG rechnungswesen rewe2
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:42:00 [44m 512 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-09-16 15:42:05+02:00 [COMMAND_EXIT_CODE="0"]

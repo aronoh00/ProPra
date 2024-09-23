@@ -1,0 +1,20 @@
+Script started on 2024-09-20 12:04:29+02:00 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="138" LINES="16"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m12:04:29 [44m 497 [40m
+$ su gf1
+[?2004lPassword: 
+[?2004h]0;gf1@DESKTOP-K02S42U: /home/aron/ws/propra/ACL[01;32mgf1@DESKTOP-K02S42U[00m:[01;34m/home/aron/ws/propra/ACL[00m$ cd tmp
+[?2004l[?2004h]0;gf1@DESKTOP-K02S42U: /home/aron/ws/propra/ACL/tmp[01;32mgf1@DESKTOP-K02S42U[00m:[01;34m/home/aron/ws/propra/ACL/tmp[00m$ cd rechnungen/
+[?2004l[?2004h]0;gf1@DESKTOP-K02S42U: /home/aron/ws/propra/ACL/tmp/rechnungen[01;32mgf1@DESKTOP-K02S42U[00m:[01;34m/home/aron/ws/propra/ACL/tmp/rechnungen[00m$ cd neu
+[?2004l[?2004h]0;gf1@DESKTOP-K02S42U: /home/aron/ws/propra/ACL/tmp/rechnungen/neu[01;32mgf1@DESKTOP-K02S42U[00m:[01;34m/home/aron/ws/propra/ACL/tmp/rechnungen/neu[00m$ touch rechnung19
+[?2004l[?2004h]0;gf1@DESKTOP-K02S42U: /home/aron/ws/propra/ACL/tmp/rechnungen/neu[01;32mgf1@DESKTOP-K02S42U[00m:[01;34m/home/aron/ws/propra/ACL/tmp/rechnungen/neu[00m$ cat rechnung17
+[?2004lcat: rechnung17: Permission denied
+[?2004h]0;gf1@DESKTOP-K02S42U: /home/aron/ws/propra/ACL/tmp/rechnungen/neu[01;32mgf1@DESKTOP-K02S42U[00m:[01;34m/home/aron/ws/propra/ACL/tmp/rechnungen/neu[00m$ cd ..
+[?2004l[?2004h]0;gf1@DESKTOP-K02S42U: /home/aron/ws/propra/ACL/tmp/rechnungen[01;32mgf1@DESKTOP-K02S42U[00m:[01;34m/home/aron/ws/propra/ACL/tmp/rechnungen[00m$ cd aktuell/
+[?2004lbash: cd: aktuell/: Permission denied
+[?2004h]0;gf1@DESKTOP-K02S42U: /home/aron/ws/propra/ACL/tmp/rechnungen[01;32mgf1@DESKTOP-K02S42U[00m:[01;34m/home/aron/ws/propra/ACL/tmp/rechnungen[00m$ exit
+[?2004lexit
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m12:05:42 [44m 498 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-09-20 12:06:03+02:00 [COMMAND_EXIT_CODE="1"]

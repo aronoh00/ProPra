@@ -1,0 +1,65 @@
+Script started on 2024-09-20 12:45:08+02:00 [TERM="xterm-256color" TTY="/dev/pts/11" COLUMNS="121" LINES="16"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m12:45:08 [44m 497 [40m
+
+$ sudo setfacl -bR ~/ws/propra/ACL/tmp/rechnungen/ ~/ws/propra/ACL/tmp/rechnungen/aktuell/ ~/ws/propra/ACL/tmp/rechnungen/neu/
+[?2004l
+[sudo] password for aron: 
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m12:45:23 [44m 498 [40m
+
+$ rm -rf ~/ws/propra/ACL/tmp/rechnungen/
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m12:45:44 [44m 499 [40m
+
+$ sudo deluser --remove-home gf1
+[?2004l
+Looking for files to backup/remove ...
+Removing files ...
+Removing crontab ...
+Removing user `gf1' ...
+Done.
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m12:47:16 [44m 501 [40m
+
+$ sudo deluser --remove-home gf12
+[?2004l
+Looking for files to backup/remove ...
+Removing files ...
+Removing crontab ...
+Removing user `gf2' ...
+Done.
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m12:47:21 [44m 502 [40m
+
+$ sudo deluser --remove-home rewe1
+[?2004l
+Looking for files to backup/remove ...
+Removing files ...
+Removing crontab ...
+Removing user `rewe1' ...
+Done.
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m12:47:41 [44m 503 [40m
+
+$ sudo deluser --remove-home rewe2
+[?2004l
+Looking for files to backup/remove ...
+Removing files ...
+Removing crontab ...
+Removing user `rewe2' ...
+Done.
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m12:47:44 [44m 504 [40m
+
+$ sudo delgroup rechnungswesen
+[?2004l
+Removing group `rechnungswesen' ...
+Done.
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m12:54:37 [44m 508 [40m
+
+$ sudo delgroup geschaeftsfuehrer
+[?2004l
+Removing group `geschaeftsfuehrer' ...
+Done.
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m12:55:02 [44m 509 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-09-20 12:55:04+02:00 [COMMAND_EXIT_CODE="0"]

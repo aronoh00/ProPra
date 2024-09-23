@@ -1,0 +1,22 @@
+Script started on 2024-09-16 15:52:08+02:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="129" LINES="11"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:52:08 [44m 501 [40m
+
+$ getfacl ~ws/propra/ACL/tmp/rechnungen/
+[?2004l
+getfacl: Removing leading '/' from absolute path names
+# file: tmp/rechnungen/
+# owner: aron
+# group: aron
+user::rwx
+group::r-x
+group:geschaeftsfuehrer:r-x
+mask::rwx
+other::---
+
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/ACL [0;37m15:52:26 [44m 502 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-09-16 15:52:29+02:00 [COMMAND_EXIT_CODE="0"]
