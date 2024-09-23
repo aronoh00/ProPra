@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: rgb(183, 218, 255);
+            }
+
+            h1 {
+                text-align: center;
+                color:  rgb(58, 58, 207);
+            }
+
+            .container {
+                width: 80%;
+                margin: 1.5em auto;
+                padding: 1.5em;
+                background-color: rgb(155, 155, 155);
+                text-align: left;
+                border-radius: 0.7em;
+
+            }
+
+            .radio {
+                width: 50%;
+                text-align: left;
+            }
+
+            fieldset {
+                width: 50%;
+                text-align: left;
+            }
+
+        </style>
+        <title>Formulare</title>
+    </head>
+    <body>
+        <header>
+            <h1>Formulare</h1>
+        </header>
+        <main>
+            <section class="container">
+                <form action="formular_auswertung.php">
+                    <label for="E-Mail">E-Mail:</label>
+                    <input type="email" id="E-Mail" name="E-Mail" required>
+                    <br><br>
+                    <label for="Name">Namen:</label>
+                    <input type="text" id="Name" name="Name" required>
+                    <br><br>
+                    <textarea id="Nachricht" name="Nachricht" rows="5" cols="33">Beschreiben Sie Ihren Auftrag</textarea>
+                    <br><br>
+                    <fieldset>
+                        <input type="radio" id="Neuentwicklung" name="Auftrag" value="Neuentwicklung">
+                        <label for="Neuentwicklung">Neuentwicklung</label>
+
+                        <input type="radio" id="Softwaretests" name="Auftrag" value="Softwaretests">
+                        <label for="Softwaretests">Softwaretests</label>
+
+                        <input type="radio" id="Debugging" name="Auftrag" value="Debugging">
+                        <label for="Debugging">Debugging</label>
+
+                        <input type="radio" id="Projektmanagement" name="Auftrag" value="Projektmanagement">
+                        <label for="Projektmanagement">Projektmanagement</label>
+                    </fieldset>
+                    <br>
+                    <input type="date" id="Datum" name="Datum">
+                    <label for="Datum">Bitte geben Sie ein Fälligkeitsdatum an</label>
+                    <br><br>
+                    <input type="file" id="Datei" name="Datei">
+                    <label for="Datei">Bitte laden Sie eine Datei mit weiteren Informationen hoch</label>
+                    <br><br>
+                    <fieldset>
+                        <input type="checkbox" id="AGB" name="AGB" required>
+                        <lable for="AGB">Bitte bestätigen Sie unsere Datenschutzbestimmungen</lable>
+                    </fieldset>
+                    <br>
+                    <button type="senden">Senden</button>
+                </form>
+            </section>
+
+        </main>
+        
+    </body>
+</html>
