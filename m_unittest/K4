@@ -1,0 +1,35 @@
+Script started on 2024-09-09 13:08:15+02:00 [TERM="xterm-256color" TTY="/dev/pts/15" COLUMNS="137" LINES="18"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_unittest [0;37m13:08:15 [44m 501 [40m
+$ git commit -m "unittest"
+[?2004l[main 706c038] unittest
+ 1 file changed, 7 insertions(+)
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_unittest [0;37m13:08:35 [44m 502 [40m
+$ git -P show HEAD
+[?2004l[33mcommit 706c038e13cbd3b6624160fcb2fe0af978eb0f91[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Aron Huth <aronoh00@zedat.fu-berlin.de>
+Date:   Mon Sep 9 13:08:35 2024 +0200
+
+    unittest
+
+[1mdiff --git a/m_unittest/unittests/test_unittest.py b/m_unittest/unittests/test_unittest.py[m
+[1mindex 723410f..d22755c 100644[m
+[1m--- a/m_unittest/unittests/test_unittest.py[m
+[1m+++ b/m_unittest/unittests/test_unittest.py[m
+[36m@@ -1,5 +1,12 @@[m
+ import unittest[m
+[32m+[m[32mimport math[m
+[32m+[m
+ [m
+ class TestStringMethods(unittest.TestCase):[m
+     def test_addition(self):[m
+         self.assertEqual(1 + 1, 2)[m
+[32m+[m
+[32m+[m
+[32m+[m[32mclass TestMathMethods(unittest.TestCase):[m[41m    [m
+[32m+[m[32m    def test_sqrt(self):[m
+[32m+[m[32m        self.assertEqual(math.sqrt(10)**2, 10)[m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_unittest [0;37m13:08:48 [44m 503 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-09-09 13:08:55+02:00 [COMMAND_EXIT_CODE="0"]

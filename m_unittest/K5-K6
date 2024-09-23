@@ -1,0 +1,38 @@
+Script started on 2024-09-09 13:27:37+02:00 [TERM="xterm-256color" TTY="/dev/pts/31" COLUMNS="137" LINES="18"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_unittest [0;37m13:27:37 [44m 501 [40m
+
+$ python -m unittest unittests/test_unittest.py 
+[?2004l
+x.
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK (expected failures=1)
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_unittest [0;37m13:27:40 [44m 502 [40m
+
+$ git -P show HEAD
+[?2004l
+[33mcommit 9b15591bf37e186b3784ca2cb2ac3ace2302969a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Aron Huth <aronoh00@zedat.fu-berlin.de>
+Date:   Mon Sep 9 13:21:58 2024 +0200
+
+    unittest
+
+[1mdiff --git a/m_unittest/unittests/test_unittest.py b/m_unittest/unittests/test_unittest.py[m
+[1mindex d22755c..7bedad8 100644[m
+[1m--- a/m_unittest/unittests/test_unittest.py[m
+[1m+++ b/m_unittest/unittests/test_unittest.py[m
+[36m@@ -8,5 +8,6 @@[m [mclass TestStringMethods(unittest.TestCase):[m
+ [m
+ [m
+ class TestMathMethods(unittest.TestCase):    [m
+[32m+[m[32m    @unittest.expectedFailure[m
+     def test_sqrt(self):[m
+         self.assertEqual(math.sqrt(10)**2, 10)[m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_unittest [0;37m13:28:13 [44m 503 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-09-09 13:28:46+02:00 [COMMAND_EXIT_CODE="0"]

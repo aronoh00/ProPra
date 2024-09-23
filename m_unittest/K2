@@ -1,0 +1,30 @@
+Script started on 2024-09-09 12:46:31+02:00 [TERM="xterm-256color" TTY="/dev/pts/15" COLUMNS="137" LINES="18"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_unittest [0;37m12:46:31 [44m 501 [40m
+$ git commit -m "unittest"
+[?2004l[main 31d1bbe] unittest
+ 1 file changed, 5 insertions(+)
+ create mode 100644 m_unittest/unittests/test_unittest.py
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_unittest [0;37m12:47:29 [44m 502 [40m
+$ git -P show HEAD
+[?2004l[33mcommit 31d1bbee19bfb4cbf4570ae32f6de6d79e19b467[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Aron Huth <aronoh00@zedat.fu-berlin.de>
+Date:   Mon Sep 9 12:47:29 2024 +0200
+
+    unittest
+
+[1mdiff --git a/m_unittest/unittests/test_unittest.py b/m_unittest/unittests/test_unittest.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..723410f[m
+[1m--- /dev/null[m
+[1m+++ b/m_unittest/unittests/test_unittest.py[m
+[36m@@ -0,0 +1,5 @@[m
+[32m+[m[32mimport unittest[m
+[32m+[m
+[32m+[m[32mclass TestStringMethods(unittest.TestCase):[m
+[32m+[m[32m    def test_addition(self):[m
+[32m+[m[32m        self.assertEqual(1 + 1, 2)[m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_unittest [0;37m12:47:42 [44m 503 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-09-09 12:47:50+02:00 [COMMAND_EXIT_CODE="0"]

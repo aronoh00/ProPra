@@ -1,0 +1,21 @@
+Script started on 2024-09-09 12:59:05+02:00 [TERM="xterm-256color" TTY="/dev/pts/15" COLUMNS="137" LINES="18"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_unittest [0;37m12:59:05 [44m 501 [40m
+$ python -m unittest unittests/test_unittest.py 
+[?2004lF.
+======================================================================
+FAIL: test_sqrt (unittests.test_unittest.TestMathMethods.test_sqrt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/aron/ws/propra/m_unittest/unittests/test_unittest.py", line 12, in test_sqrt
+    self.assertEqual(math.sqrt(10)**2, 10)
+AssertionError: 10.000000000000002 != 10
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=1)
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_unittest [0;37m12:59:53 [44m 502 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-09-09 12:59:57+02:00 [COMMAND_EXIT_CODE="1"]
