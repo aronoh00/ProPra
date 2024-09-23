@@ -1,0 +1,69 @@
+Script started on 2024-09-09 14:30:42+02:00 [TERM="xterm-256color" TTY="/dev/pts/15" COLUMNS="121" LINES="17"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_pytest [0;37m14:30:42 [44m 501 [40m
+$ exit[C[Cpytest -v pytest/test_pytest.py 
+[?2004l[1m================================================== test session starts ==================================================[0m
+platform linux -- Python 3.11.2, pytest-8.3.2, pluggy-1.5.0 -- /home/aron/venv/propra/bin/python
+cachedir: .pytest_cache
+rootdir: /home/aron/ws/propra/m_pytest
+[1mcollecting ... [0m[1mcollected 5 items                                                                                                       [0m
+
+pytest/test_pytest.py::test_addition [32mPASSED[0m[32m                                                                       [ 20%][0m
+pytest/test_pytest.py::test_sqrt [33mXFAIL[0m[32m                                                                            [ 40%][0m
+pytest/test_pytest.py::test_sqrt_negative [32mPASSED[0m[32m                                                                  [ 60%][0m
+pytest/test_pytest.py::test_failure1 [31mFAILED[0m[31m                                                                       [ 80%][0m
+pytest/test_pytest.py::test_failure2 [31mERROR[0m[31m                                                                        [100%][0m
+
+======================================================== ERRORS =========================================================
+[31m[1m____________________________________________ ERROR at setup of test_failure2 ____________________________________________[0m
+file /home/aron/ws/propra/m_pytest/pytest/test_pytest.py, line 21
+  def test_failure2(self):
+[31mE       fixture 'self' not found[0m
+[31m>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory[0m
+[31m>       use 'pytest --fixtures [testpath]' for help on them.[0m
+
+/home/aron/ws/propra/m_pytest/pytest/test_pytest.py:21
+======================================================= FAILURES ========================================================
+[31m[1m_____________________________________________________ test_failure1 _____________________________________________________[0m
+
+    def test_failure1():
+        print("lots\nof\nstuff")
+>       assert False
+[1m[31mE       assert False[0m
+
+[1m[31mpytest/test_pytest.py[0m:19: AssertionError
+------------------------------------------------- Captured stdout call --------------------------------------------------
+lots
+of
+stuff
+[36m[1m================================================ short test summary info ================================================[0m
+[31mFAILED[0m pytest/test_pytest.py::[1mtest_failure1[0m - assert False
+[31mERROR[0m pytest/test_pytest.py::[1mtest_failure2[0m
+[31m==================================== [31m[1m1 failed[0m, [32m2 passed[0m, [33m1 xfailed[0m, [31m[1m1 error[0m[31m in 0.05s[0m[31m ====================================[0m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_pytest [0;37m14:30:48 [44m 502 [40m
+$ [7mpython -m unittest unittests/test_unittest.py [27m[C[Cpython -m unittest unittests/test_unittest.py 
+[?2004lEstill
+more
+stuff
+F...
+======================================================================
+ERROR: test_failure1 (unittests.test_unittest.TestFailureMethods.test_failure1)
+----------------------------------------------------------------------
+TypeError: TestFailureMethods.test_failure1() takes 0 positional arguments but 1 was given
+
+======================================================================
+FAIL: test_failure2 (unittests.test_unittest.TestFailureMethods.test_failure2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/aron/ws/propra/m_pytest/unittests/test_unittest.py", line 25, in test_failure2
+    assert False
+AssertionError
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=1, errors=1)
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_pytest [0;37m14:37:20 [44m 503 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-09-09 14:37:23+02:00 [COMMAND_EXIT_CODE="1"]

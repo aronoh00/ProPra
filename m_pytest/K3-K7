@@ -1,0 +1,125 @@
+Script started on 2024-09-09 14:13:49+02:00 [TERM="xterm-256color" TTY="/dev/pts/15" COLUMNS="137" LINES="13"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_pytest [0;37m14:13:49 [44m 501 [40m
+
+$ git commit -m "pytest"
+[?2004l
+[main e43b559] pytest
+ 1 file changed, 15 insertions(+)
+ create mode 100644 m_pytest/pytest/test_pytest.py
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_pytest [0;37m14:14:12 [44m 502 [40m
+
+$ git -P show HEAD
+[?2004l
+[33mcommit e43b559a59641f861b609d9741eaabbf83ef5dbe[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Aron Huth <aronoh00@zedat.fu-berlin.de>
+Date:   Mon Sep 9 14:14:12 2024 +0200
+
+    pytest
+
+[1mdiff --git a/m_pytest/pytest/test_pytest.py b/m_pytest/pytest/test_pytest.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..77168b0[m
+[1m--- /dev/null[m
+[1m+++ b/m_pytest/pytest/test_pytest.py[m
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m[32mimport pytest[m
+[32m+[m[32mimport math[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef test_addition():[m
+[32m+[m[32m    assert 1 + 1 == 2[m
+[32m+[m
+[32m+[m[41m   [m
+[32m+[m[32mdef test_sqrt():[m
+[32m+[m[32m    assert math.sqrt(10)**2 == pytest.approx(10, rel=1e-6)[m
+[32m+[m
+[32m+[m[32mdef test_sqrt_negative():[m
+[32m+[m[32m    with pytest.raises(ValueError):[m
+[32m+[m[32m        math.sqrt(-1)[m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_pytest [0;37m14:14:29 [44m 503 [40m
+
+$ pytest pytest/test_pytest.py 
+[?2004l
+[1m================================================== test session starts ==================================================[0m
+platform linux -- Python 3.11.2, pytest-8.3.2, pluggy-1.5.0
+rootdir: /home/aron/ws/propra/m_pytest
+[1mcollecting ... [0m[1m
+collected 3 items                                                                                                       [0m
+
+pytest/test_pytest.py [32m.[0m[32m.[0m[32m.[0m[32m                                                                                         [100%][0m
+
+[32m=================================================== [32m[1m3 passed[0m[32m in 0.01s[0m[32m ===================================================[0m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_pytest [0;37m14:18:15 [44m 504 [40m
+
+$ git add pytest/
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_pytest [0;37m14:21:49 [44m 505 [40m
+
+$ git commit -m "pytest"
+[?2004l
+[main 8284026] pytest
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_pytest [0;37m14:22:00 [44m 506 [40m
+
+$ git -P show HEAD
+[?2004l
+[33mcommit 8284026ab932b86c10387243e553db9d44507a6a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Aron Huth <aronoh00@zedat.fu-berlin.de>
+Date:   Mon Sep 9 14:22:00 2024 +0200
+
+    pytest
+
+[1mdiff --git a/m_pytest/pytest/test_pytest.py b/m_pytest/pytest/test_pytest.py[m
+[1mindex 77168b0..d637445 100644[m
+[1m--- a/m_pytest/pytest/test_pytest.py[m
+[1m+++ b/m_pytest/pytest/test_pytest.py[m
+[36m@@ -6,9 +6,10 @@[m [mimport math[m
+ def test_addition():[m
+     assert 1 + 1 == 2[m
+ [m
+[31m-   [m
+[32m+[m[32m@pytest.mark.xfail[m
+ def test_sqrt():[m
+[31m-    assert math.sqrt(10)**2 == pytest.approx(10, rel=1e-6)[m
+[32m+[m[32m    assert math.sqrt(10)**2 == 10[m[41m   [m
+[32m+[m
+ [m
+ def test_sqrt_negative():[m
+     with pytest.raises(ValueError):[m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_pytest [0;37m14:22:15 [44m 507 [40m
+
+$ pytest pytest/test_pytest.py 
+[?2004l
+[1m================================================== test session starts ==================================================[0m
+platform linux -- Python 3.11.2, pytest-8.3.2, pluggy-1.5.0
+rootdir: /home/aron/ws/propra/m_pytest
+[1mcollecting ... [0m[1m
+collected 3 items                                                                                                       [0m
+
+pytest/test_pytest.py [32m.[0m[33mx[0m[32m.[0m[32m                                                                                         [100%][0m
+
+[32m============================================= [32m[1m2 passed[0m, [33m1 xfailed[0m[32m in 0.03s[0m[32m ==============================================[0m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_pytest [0;37m14:22:36 [44m 508 [40m
+
+$ pytest -v pytest/test_pytest.py 
+[?2004l
+[1m================================================== test session starts ==================================================[0m
+platform linux -- Python 3.11.2, pytest-8.3.2, pluggy-1.5.0 -- /home/aron/venv/propra/bin/python
+cachedir: .pytest_cache
+rootdir: /home/aron/ws/propra/m_pytest
+[1mcollecting ... [0m[1m
+collected 3 items                                                                                                       [0m
+
+pytest/test_pytest.py::test_addition [32mPASSED[0m[32m                                                                       [ 33%][0m
+pytest/test_pytest.py::test_sqrt [33mXFAIL[0m[32m                                                                            [ 66%][0m
+pytest/test_pytest.py::test_sqrt_negative [32mPASSED[0m[32m                                                                  [100%][0m
+
+[32m============================================= [32m[1m2 passed[0m, [33m1 xfailed[0m[32m in 0.04s[0m[32m ==============================================[0m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_pytest [0;37m14:23:12 [44m 509 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-09-09 14:23:15+02:00 [COMMAND_EXIT_CODE="0"]
