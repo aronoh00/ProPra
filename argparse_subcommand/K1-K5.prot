@@ -1,0 +1,55 @@
+Script started on 2024-09-08 15:06:18+02:00 [TERM="xterm-256color" TTY="/dev/pts/15" COLUMNS="121" LINES="15"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/argparse_subcommand [0;37m15:06:18 [44m 501 [40m
+
+$ python ~/ws/propra/mlh/mlh
+[?2004l
+usage: mlh [-h] {lsnew,gitac} ...
+mlh: error: the following arguments are required: subcommand
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/argparse_subcommand [0;37m15:06:37 [44m 502 [40m
+
+$ python ~/ws/propra/mlh/mlh gitac
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/argparse_subcommand [0;37m15:06:47 [44m 503 [40m
+
+$ python ~/ws/propra/mlh/mlh gitac
+[?2004l
+Namespace(subcommand='gitac')
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/argparse_subcommand [0;37m15:07:58 [44m 504 [40m
+
+$ python ~/ws/propra/mlh/mlh gitac file1
+[?2004l
+Namespace(subcommand='gitac', massage=None, file=['file1'])
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/argparse_subcommand [0;37m15:41:29 [44m 506 [40m
+
+$ python ~/ws/propra/mlh/mlh gitac file1 file2
+[?2004l
+Namespace(subcommand='gitac', massage=None, file=['file1', 'file2'])
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/argparse_subcommand [0;37m15:41:37 [44m 507 [40m
+
+$ python ~/ws/propra/mlh/mlh gitac -m "my commit message" file1 file2
+[?2004l
+Namespace(subcommand='gitac', massage='my commit message', file=['file1', 'file2'])
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/argparse_subcommand [0;37m15:42:04 [44m 508 [40m
+
+$ python ~/ws/propra/mlh/mlh gitac --message "other msg" file1 file2 file3
+[?2004l
+Namespace(subcommand='gitac', message='other msg', file=['file1', 'file2', 'file3'])
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/argparse_subcommand [0;37m15:42:22 [44m 509 [40m
+
+$ python ~/ws/propra/mlh/mlh gitac 
+[?2004l
+usage: mlh gitac [-h] [-m commit msg] file [file ...]
+mlh gitac: error: the following arguments are required: file
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/argparse_subcommand [0;37m15:43:23 [44m 510 [40m
+
+$ python ~/ws/propra/mlh/mlh gitac -m file1
+[?2004l
+usage: mlh gitac [-h] [-m commit msg] file [file ...]
+mlh gitac: error: the following arguments are required: file
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/argparse_subcommand [0;37m15:44:06 [44m 511 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-09-08 15:44:21+02:00 [COMMAND_EXIT_CODE="2"]
