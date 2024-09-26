@@ -1,0 +1,27 @@
+Script started on 2024-09-21 14:07:33+02:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="138" LINES="14"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m14:07:33 [44m 497 [40m
+$ git -P show HEAD
+[?2004l[33mcommit 89283dea98cfe19c6ac6cfc9334bc66b7b546046[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Aron Huth <aronoh00@zedat.fu-berlin.de>
+Date:   Sat Sep 21 14:07:25 2024 +0200
+
+    Defekte-in-Ausdrücken.py corrected
+
+[1mdiff --git "a/Defekte-in-Ausdr\303\274cken/Defekte-in-Ausdr\303\274cken.py" "b/Defekte-in-Ausdr\303\274cken/Defekte-in-Ausdr\303\274cken.py"[m
+[1mindex 0816c02..e3f7b33 100644[m
+[1m--- "a/Defekte-in-Ausdr\303\274cken/Defekte-in-Ausdr\303\274cken.py"[m
+[1m+++ "b/Defekte-in-Ausdr\303\274cken/Defekte-in-Ausdr\303\274cken.py"[m
+[36m@@ -37,7 +37,7 @@[m [mdef draw_card(name: str, deck: list, player_hand: dict) -> None:[m
+         if card_rank in player_hand:[m
+             # append this suit to the list[m
+             player_hand[card_rank].append(card_suit)[m
+[31m-            if len(player_hand) == 4:[m
+[32m+[m[32m            if len(player_hand[card_rank]) == 4:[m
+                 print(f"{name} lays down {card_rank}")[m
+                 del player_hand[card_rank][m
+         else:[m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra [0;37m14:07:47 [44m 498 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-09-21 14:07:51+02:00 [COMMAND_EXIT_CODE="0"]
