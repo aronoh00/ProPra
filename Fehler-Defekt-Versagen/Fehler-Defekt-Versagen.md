@@ -4,11 +4,11 @@ F1: Nicht jeder Defekt ist auf eine falsche Programmierung zurückzuführen. Ein
 
 ---
 
-F2: Unrealistisch.
+F2: Unrealistisch, denn mit steigender Komplexität erhöht sich die Wahrscheinlichkeit, dass der Programmierer einen Fehler begeht, der zu einem Defekt führt.
 
 ---
 
-F3: Wenn der Code nicht optimiert ist indem er zum Beispiel ein ineffiziente Schleife oder überflüssige Berechnungen beinhaltet führt das nicht zu einem Defekt, kann aber als Fehler betrachtet werden.
+F3: Bei einem komplexen Programm kann ein Fehler sich in einem Programmabschnitt verbergen, der weitgehend ungenutzt ist und daher in den meisten Fällen der Programmausführung unbemerkt bleibt. Somit kann das Programm in den meisten Fällen korrekte Ausgaben liefern, obwohl es einen Defekt gibt.
 
 ---
 
@@ -16,7 +16,11 @@ F4: Es könnte sein, dass die Anwendung nicht optimiert ist und sehr viel Arbeit
 
 ---
 
-F5: Der Punkt "Ein aktiver Benutzer kann sein Passwort auf der Anmeldeseite neu vergeben" ist nicht praktikabel umsetzbar, da nicht klar ist ob es einen Link mit dem, dass Passwort zurückgesetzt werden kann oder es eine andere Methode gibt. Man könnte es so formulieren: "Ein aktiver Benutzer kann auf der Anmeldeseite ein Passwort-Zurücksetzungsverfahren starten indem er...[verfahren Nennen]" 24H
+F5: Das System sperrt das Konto nach drei aufeinanderfolgenden fehlgeschlagenen Anmeldeversuchen für 24 Stunden
+
+- möglich zu überprüfen, aber dauert zu lange
+- Änderung: Das System sperrt das Konto nach drei aufeinanderfolgenden fehlgeschlagenen Anmeldeversuchen für eine bestimmte Zeit
+- für Testzwecke eine kurze Zeitspanne festlegen
 
 ---
 
@@ -24,13 +28,13 @@ F6:
 
 1. Versagen: Ein Nutzer soll sich nur mit einer gültigen E-Mail-Adresse anmelden können und nicht mit seinem Benutzernamen.
 
-2. Möglicherweise Versagen: Eine Fehlermeldung wird nur dann angezeigt, wenn das Passwort zu kurz ist. Wenn es zu lang ist, soll keine Fehlermeldung angezeigt werden.
+2. Versagen: Anmeldung erfolgt mit E-Mail-Adresse und nicht mit Benutzername, ungültiges Passwort ist hier zweitrangig, da hier bereits ein Versagen vorliegt.
 
 3. Kein Versagen.
 
 4. Versagen, wenn es sich bei dem Nutzer nicht um den Portal-Administrator handelt
 
-5. Kein Versagen.
+5. Wahrscheinlich ein Versagen: lange Wartezeit ist zwar theoretisch akzeptiertes Verhalten, da sie nicht in den Kriterien spezifiziert wurde,  ist aber eigentlich inakzeptabel.
 
 ---
 
