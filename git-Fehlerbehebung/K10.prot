@@ -1,0 +1,12 @@
+Script started on 2024-10-08 16:16:05+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="170" LINES="16"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/git-Fehlerbehebung [0;37m16:16:05 [44m 497 [40m
+
+$ git restore --source=c3f72e4f80eaa5cb121f2439bfa4972e029eff0f -- .
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/git-Fehlerbehebung [0;37m16:16:27 [44m 498 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-10-08 16:16:36+02:00 [COMMAND_EXIT_CODE="0"]

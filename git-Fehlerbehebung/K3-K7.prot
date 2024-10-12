@@ -1,0 +1,74 @@
+Script started on 2024-10-08 15:25:26+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="170" LINES="12"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/git-Fehlerbehebung [0;37m15:25:26 [44m 497 [40m
+
+$ git status
+[?2004l
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   add.md[m
+	[32mnew file:   remove.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../Indexierungsdefekte/[m
+	[31m../Logikdefekte/[m
+	[31mK1-K2.prot[m
+	[31mgit-Fehlerbehebung.md[m
+	[31mtypescript[m
+	[31m../gitbisect/[m
+
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/git-Fehlerbehebung [0;37m15:25:30 [44m 498 [40m
+
+$ git reset HEAD remove.md
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/git-Fehlerbehebung [0;37m15:27:44 [44m 499 [40m
+
+$ git status
+[?2004l
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   add.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../Indexierungsdefekte/[m
+	[31m../Logikdefekte/[m
+	[31mK1-K2.prot[m
+	[31mgit-Fehlerbehebung.md[m
+	[31mremove.md[m
+	[31mtypescript[m
+	[31m../gitbisect/[m
+
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/git-Fehlerbehebung [0;37m15:28:23 [44m 500 [40m
+
+$ git commit -m "add.md hinzugefügt"
+[?2004l
+[main 5f06bba] add.md hinzugefügt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git-Fehlerbehebung/add.md
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/git-Fehlerbehebung [0;37m15:30:44 [44m 501 [40m
+
+$ git add remove.md 
+[?2004l
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/git-Fehlerbehebung [0;37m15:43:03 [44m 502 [40m
+
+$ git commit -m "remove.md hinzugefügt"
+[?2004l
+[main 0177475] remove.md hinzugefügt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git-Fehlerbehebung/remove.md
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/git-Fehlerbehebung [0;37m15:43:31 [44m 503 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-10-08 15:43:36+02:00 [COMMAND_EXIT_CODE="0"]

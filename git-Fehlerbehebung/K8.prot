@@ -1,0 +1,8 @@
+Script started on 2024-10-08 15:51:33+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="170" LINES="12"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/git-Fehlerbehebung [0;37m15:51:33 [44m 497 [40m
+$ git checkout -- checkout.md
+[?2004l[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/git-Fehlerbehebung [0;37m15:52:08 [44m 498 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-10-08 15:52:20+02:00 [COMMAND_EXIT_CODE="0"]
