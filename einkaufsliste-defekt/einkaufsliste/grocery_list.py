@@ -25,11 +25,6 @@ def choose_recipes(recipes):
         except ValueError:
             print("Invalid selection. Please try again.")
 
-def find_location(ingredient_name, all_ingredient_locs):
-    for ing in all_ingredient_locs:
-        if ing["name"] == ingredient_name:
-            return ing["where"]
-
 
 def get_grocery_items(all_ingredient_locs, recipes):
     grocery_items = []
@@ -39,7 +34,7 @@ def get_grocery_items(all_ingredient_locs, recipes):
             {
                 "name": ingr["name"],
                 "quantity": ingr["quantity"],
-                "where": find_location(ingr["name"], all_ingredient_locs)
+                "where": all_ingredient_locs[ingr["name"]],
             }
             for ingr in ingredients
         ]
