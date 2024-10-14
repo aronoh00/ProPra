@@ -1,0 +1,111 @@
+Script started on 2024-10-13 15:32:22+02:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="150" LINES="21"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/einkaufsliste-defekt/einkaufsliste [0;37m15:32:22 [44m 501 [40m
+
+$ git -P show HEAD
+[?2004l
+[33mcommit 57177621ada42d4f634c9e003c0a1e088e9cd5d6[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Aron Huth <aronoh00@zedat.fu-berlin.de>
+Date:   Sun Oct 13 15:32:06 2024 +0200
+
+    grocery_list.py
+
+[1mdiff --git a/einkaufsliste-defekt/einkaufsliste/grocery_list.py b/einkaufsliste-defekt/einkaufsliste/grocery_list.py[m
+[1mindex 828dc89..f5c588e 100644[m
+[1m--- a/einkaufsliste-defekt/einkaufsliste/grocery_list.py[m
+[1m+++ b/einkaufsliste-defekt/einkaufsliste/grocery_list.py[m
+[36m@@ -26,6 +26,12 @@[m [mdef choose_recipes(recipes):[m
+             print("Invalid selection. Please try again.")[m
+ [m
+ [m
+[32m+[m[32mdef find_location(ingredient_name, all_ingredient_locs):[m
+[32m+[m[32m    for ing in all_ingredient_locs:[m
+[32m+[m[32m        if ing["name"] == ingredient_name:[m
+[32m+[m[32m            return ing["where"][m
+[32m+[m
+[32m+[m
+ def get_grocery_items(all_ingredient_locs, recipes):[m
+     grocery_items = [][m
+     for recipe in recipes:[m
+[36m@@ -34,7 +40,7 @@[m [mdef get_grocery_items(all_ingredient_locs, recipes):[m
+             {[m
+                 "name": ingr["name"],[m
+                 "quantity": ingr["quantity"],[m
+[31m-                "where": all_ingredient_locs[ingr["name"]],[m
+[32m+[m[32m                "where": find_location(ingr["name"], all_ingredient_locs),[m
+             }[m
+             for ingr in ingredients[m
+         ][m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/einkaufsliste-defekt/einkaufsliste [0;37m15:32:54 [44m 502 [40m
+
+$ python grocery_list.py
+[?2004l
+0: spaghetti bolognese
+1: chicken caesar salad
+2: vegetarian stir-fry
+3: margherita pizza
+4: shrimp scampi
+5: beef tacos
+6: minestrone soup
+7: chicken quesadillas
+8: salmon with lemon-dill sauce
+9: vegetable curry
+What are you shopping for? 0,0,4
+Here's your grocery list:
+===== ('alcohol', 'white wine') =====
+white wine, 1/2 cup
+
+===== ('canned goods', 'crushed tomatoes') =====
+crushed tomatoes, 28 oz can + 28 oz can
+
+===== ('canned goods', 'tomato paste') =====
+tomato paste, 2 tbsp + 2 tbsp
+
+===== ('condiments/oils', 'olive oil') =====
+olive oil, 2 tbsp + 2 tbsp + 2 tbsp
+
+===== ('meat', 'ground beef') =====
+ground beef, 1 lb + 1 lb
+
+===== ('pasta', 'linguine') =====
+linguine, 8 oz
+
+===== ('pasta', 'spaghetti') =====
+spaghetti, 12 oz + 12 oz
+
+===== ('produce', 'garlic') =====
+garlic, 3 cloves + 3 cloves + 4 cloves
+
+===== ('produce', 'lemon juice') =====
+lemon juice, 2 tbsp
+
+===== ('produce', 'onion') =====
+onion, 1 + 1
+
+===== ('produce', 'parsley') =====
+parsley, 1/4 cup
+
+===== ('seafood', 'shrimp') =====
+shrimp, 1 lb
+
+===== ('spices', 'black pepper') =====
+black pepper, to taste + to taste + to taste
+
+===== ('spices', 'dried basil') =====
+dried basil, 1 tsp + 1 tsp
+
+===== ('spices', 'dried oregano') =====
+dried oregano, 1 tsp + 1 tsp
+
+===== ('spices', 'red pepper flakes') =====
+red pepper flakes, 1/2 tsp
+
+===== ('spices', 'salt') =====
+salt, to taste + to taste + to taste
+
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/einkaufsliste-defekt/einkaufsliste [0;37m15:33:36 [44m 503 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-10-13 15:33:38+02:00 [COMMAND_EXIT_CODE="0"]

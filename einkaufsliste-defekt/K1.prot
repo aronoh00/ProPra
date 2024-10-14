@@ -1,0 +1,32 @@
+Script started on 2024-10-08 16:52:38+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="170" LINES="16"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/einkaufsliste-defekt/einkaufsliste [0;37m16:52:38 [44m 497 [40m
+$ python grocery_list.py
+[?2004l0: spaghetti bolognese
+1: chicken caesar salad
+2: vegetarian stir-fry
+3: margherita pizza
+4: shrimp scampi
+5: beef tacos
+6: minestrone soup
+7: chicken quesadillas
+8: salmon with lemon-dill sauce
+9: vegetable curry
+What are you shopping for? 0,0,1,2
+Traceback (most recent call last):
+  File "/home/aron/ws/propra/einkaufsliste-defekt/einkaufsliste/grocery_list.py", line 91, in <module>
+    main()
+  File "/home/aron/ws/propra/einkaufsliste-defekt/einkaufsliste/grocery_list.py", line 83, in main
+    grocery_items = get_grocery_items(all_ingredient_locs, chosen_recipes)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aron/ws/propra/einkaufsliste-defekt/einkaufsliste/grocery_list.py", line 33, in get_grocery_items
+    items = [
+            ^
+  File "/home/aron/ws/propra/einkaufsliste-defekt/einkaufsliste/grocery_list.py", line 37, in <listcomp>
+    "where": all_ingredient_locs[ingr["name"]],
+             ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/einkaufsliste-defekt/einkaufsliste [0;37m16:53:01 [44m 498 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-10-08 16:53:06+02:00 [COMMAND_EXIT_CODE="1"]
