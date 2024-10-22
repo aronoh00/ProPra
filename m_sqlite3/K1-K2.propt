@@ -1,0 +1,33 @@
+Script started on 2024-10-22 14:55:14+02:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="150" LINES="11"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_sqlite3 [0;37m14:55:14 [44m 501 [40m
+$ python m_sqlite3.py create
+[?2004l[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_sqlite3 [0;37m14:55:25 [44m 502 [40m
+$ python m_sqlite3.py query
+[?2004lnumberof entries in 'books': 3
+fantasy books: [('The Lord of The Rings',)]
+most common genre(s): [('Monograph', 1), ('Fiction', 1), ('Fantasy', 1)]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_sqlite3 [0;37m14:55:36 [44m 503 [40m
+$ python m_sqlite3.py import
+[?2004l[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_sqlite3 [0;37m14:55:48 [44m 504 [40m
+$ python m_sqlite3.py query
+[?2004lnumberof entries in 'books': 122
+fantasy books: [('The Lord of The Rings',),
+ ('The Hobbit',),
+ ('A Dance with Dragons',),
+ ('A Feast for Crows',),
+ ('A Storm of Swords',),
+ ('A Clash of Kings',),
+ ('A Game of Thrones',),
+ ('Harry Potter and the Deathly Hallows',),
+ ('Harry Potter and the Half-Blood Prince',),
+ ('Harry Potter and the Order of the Phoenix',),
+ ('Harry Potter And The Goblet Of Fire',),
+ ('Harry Potter And The Prisoner Of Azkaban',),
+ ('Harry Potter and the Chamber of Secrets',),
+ ("Harry Potter and the Sorcerer's Stone",)]
+most common genre(s): [('Self-Help', 18), ('Fiction', 15), ('Fantasy', 14), ('Philosophy', 9), ('Parenting', 8), ('Buddhism', 7), ('Programming', 6), ('Science Fiction', 3), ('Science', 3), ('Autobiography', 3), ('War', 2), ('Psychology', 2), ('Productivity', 2), ('Motorcycling', 2), ('Fitness', 2), ('Biography', 2), ('Travel', 1), ('Spiritual', 1), ('Mystery', 1), ('Motivation', 1), ('Monograph', 1), ('Military', 1), ('Memoir', 1), ('Learning', 1), ('Leadership', 1), ('Academic', 1), (None, 0)]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_sqlite3 [0;37m14:55:56 [44m 505 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-10-22 14:55:58+02:00 [COMMAND_EXIT_CODE="0"]
