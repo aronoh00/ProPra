@@ -73,7 +73,7 @@ def print_grocery_items_by_location(grocery_items):
         return x["where"], x["name"]
 
     grocery_items = sorted(grocery_items, key=where_then_name_key)
-    groups = itertools.groupby(grocery_items, key=where_then_name_key)
+    groups = itertools.groupby(grocery_items, key=where_key)
 
     for where, items in groups:
         print(f"===== {where} =====")
