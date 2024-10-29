@@ -1,0 +1,74 @@
+Script started on 2024-10-29 15:06:46+01:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="150" LINES="24"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/einkaufsliste-defekt2/einkaufsliste [0;37m15:06:46 [44m 501 [40m
+$ git -P show HEAD
+[?2004l[33mcommit 9556fc7d23396efefb6393225e7a47019f9f462a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Aron Huth <aronoh00@zedat.fu-berlin.de>
+Date:   Tue Oct 29 15:06:04 2024 +0100
+
+    grocery_list.py
+
+[1mdiff --git a/einkaufsliste-defekt2/einkaufsliste/grocery_list.py b/einkaufsliste-defekt2/einkaufsliste/grocery_list.py[m
+[1mindex f5c588e..47d979b 100644[m
+[1m--- a/einkaufsliste-defekt2/einkaufsliste/grocery_list.py[m
+[1m+++ b/einkaufsliste-defekt2/einkaufsliste/grocery_list.py[m
+[36m@@ -73,7 +73,7 @@[m [mdef print_grocery_items_by_location(grocery_items):[m
+         return x["where"], x["name"][m
+ [m
+     grocery_items = sorted(grocery_items, key=where_then_name_key)[m
+[31m-    groups = itertools.groupby(grocery_items, key=where_then_name_key)[m
+[32m+[m[32m    groups = itertools.groupby(grocery_items, key=where_key)[m
+ [m
+     for where, items in groups:[m
+         print(f"===== {where} =====")[m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/einkaufsliste-defekt2/einkaufsliste [0;37m15:06:56 [44m 502 [40m
+$ python grocery_list.py
+[?2004l0: spaghetti bolognese
+1: chicken caesar salad
+2: vegetarian stir-fry
+3: margherita pizza
+4: shrimp scampi
+5: beef tacos
+6: minestrone soup
+7: chicken quesadillas
+8: salmon with lemon-dill sauce
+9: vegetable curry
+What are you shopping for? 0,0,4
+Here's your grocery list:
+===== alcohol =====
+white wine, 1/2 cup
+
+===== canned goods =====
+crushed tomatoes, 28 oz can + 28 oz can
+tomato paste, 2 tbsp + 2 tbsp
+
+===== condiments/oils =====
+olive oil, 2 tbsp + 2 tbsp + 2 tbsp
+
+===== meat =====
+ground beef, 1 lb + 1 lb
+
+===== pasta =====
+linguine, 8 oz
+spaghetti, 12 oz + 12 oz
+
+===== produce =====
+garlic, 3 cloves + 3 cloves + 4 cloves
+lemon juice, 2 tbsp
+onion, 1 + 1
+parsley, 1/4 cup
+
+===== seafood =====
+shrimp, 1 lb
+
+===== spices =====
+black pepper, to taste + to taste + to taste
+dried basil, 1 tsp + 1 tsp
+dried oregano, 1 tsp + 1 tsp
+red pepper flakes, 1/2 tsp
+salt, to taste + to taste + to taste
+
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/einkaufsliste-defekt2/einkaufsliste [0;37m15:07:20 [44m 503 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-10-29 15:07:24+01:00 [COMMAND_EXIT_CODE="0"]
