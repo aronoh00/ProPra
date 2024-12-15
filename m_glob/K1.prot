@@ -1,0 +1,21 @@
+Script started on 2024-12-15 16:29:17+01:00 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="156" LINES="11"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_glob/m_glob/m_glob [0;37m16:29:17 [44m 501 [40m
+
+$ python m_glob.py
+[?2004l
+all txt files: ['6.txt', 'uFO.txt']
+all files with a number: ['6.txt:Zone.Identifier', 'o9:Zone.Identifier', '6.txt', 'o9', 'SjHi1Q0R', 'SjHi1Q0R:Zone.Identifier']
+all directories: ['9NQn', 'y9KrS1']
+all files in '9NQn' with two numbers: ['9NQn/725udZ.txt:Zone.Identifier', '9NQn/I89Hp.json:Zone.Identifier', '9NQn/725udZ.txt', '9NQn/I89Hp.json']
+all hidden files: ['.JqMDLI.txt:Zone.Identifier', '.JqMDLI.txt']
+all files with '[': ['EmT[xV:Zone.Identifier', 'EmT[xV']
+recursive: all json files with 'm': ['mCwTq.json', '9NQn/dmYHbh.json', 'y9KrS1/7Mn/mk1.json']
+recursive: all txt files in subdirs without uppercase first letter: ['6.txt', 'uFO.txt', '9NQn/725udZ.txt', 'y9KrS1/r8cj.txt']
+recursive: all txt files, first 3 resultes: ['6.txt', 'uFO.txt', '9NQn/MNl7KX.txt']
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_glob/m_glob/m_glob [0;37m16:29:24 [44m 502 [40m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-12-15 16:29:32+01:00 [COMMAND_EXIT_CODE="0"]
