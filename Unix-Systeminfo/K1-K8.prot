@@ -1,0 +1,72 @@
+Script started on 2024-12-13 15:58:38+01:00 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="150" LINES="14"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Unix-Systeminfo [0;37m15:58:38 [44m 501 [40m
+$ [K$ [K$ [K$ [7mcat /etc/os-release[27m
+[A[C[Ccat /etc/os-release
+[A
+[?2004lPRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+NAME="Debian GNU/Linux"
+VERSION_ID="12"
+VERSION="12 (bookworm)"
+VERSION_CODENAME=bookworm
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Unix-Systeminfo [0;37m15:59:45 [44m 502 [40m
+$ uptime -s
+[?2004l2024-12-13 06:23:03
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Unix-Systeminfo [0;37m16:01:54 [44m 503 [40m
+$ id
+[?2004luid=1000(aron) gid=1000(aron) groups=1000(aron),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),1001(docker)
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Unix-Systeminfo [0;37m16:03:10 [44m 504 [40m
+$ df -h
+[?2004lFilesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         118G   86G   33G  73% /usr/lib/wsl/drivers
+/dev/sdc       1007G  2.1G  954G   1% /
+none            1.9G  144K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.2M  1.9G   1% /init
+none            1.9G     0  1.9G   0% /dev
+none            1.9G  4.0K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G     0  1.9G   0% /run/user
+tmpfs           1.9G     0  1.9G   0% /sys/fs/cgroup
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             118G   86G   33G  73% /mnt/c
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Unix-Systeminfo [0;37m16:05:28 [44m 505 [40m
+$ free -h
+[?2004l               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.7Gi       2.1Gi       2.5Mi       139Mi       2.1Gi
+Swap:          1.0Gi          0B       1.0Gi
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Unix-Systeminfo [0;37m16:05:39 [44m 506 [40m
+$ [K$ [K$ [K$ [K$ [K$ [K$ [K$ [K$ [7msudo du -sh /home/aron/ws/propra/Unix-Systeminfo/[27m[C[Csudo du -sh /home/aron/ws/propra/Unix-Systeminfo/
+[?2004l[sudo] password for aron: 
+4.0K	/home/aron/ws/propra/Unix-Systeminfo/
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Unix-Systeminfo [0;37m16:11:02 [44m 507 [40m
+$ sudo du -sh /home
+[?2004l912M	/home
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Unix-Systeminfo [0;37m16:11:52 [44m 508 [40m
+$ ip a
+[?2004l1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet 10.255.255.254/32 brd 10.255.255.254 scope global lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1452 qdisc mq state UP group default qlen 1000
+    link/ether 00:15:5d:2f:e3:4a brd ff:ff:ff:ff:ff:ff
+    inet 172.22.63.14/20 brd 172.22.63.255 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::215:5dff:fe2f:e34a/64 scope link 
+       valid_lft forever preferred_lft forever
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/Unix-Systeminfo [0;37m16:21:05 [44m 509 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-12-13 16:21:07+01:00 [COMMAND_EXIT_CODE="0"]
