@@ -1,0 +1,31 @@
+Script started on 2024-12-13 15:23:46+01:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="150" LINES="33"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_requests [0;37m15:23:46 [44m 501 [40m
+$ [7mpython m_requests.py do_get https://www.inf.fu-berlin.de/inst/ag-se/teaching/K-ProPra-2024-04/chapter-Basis.html Hintergrund[27m[C[Cpython m_requests.py do_get https://www.inf.fu-berlin.de/inst/ag-se/teaching/K-ProPra-2024-04/chapter-Basis.html Hintergrund
+[?2004lStatus: 200
+recived 6755 characters for https://www.inf.fu-berlin.de/inst/ag-se/teaching/K-ProPra-2024-04/chapter-Basis.html
+Encoding: utf-8
+Headers:
+    Date: Fri, 13 Dec 2024 14:23:50 GMT
+    Server: Apache/2.4.62 (Debian)
+    Last-Modified: Wed, 14 Aug 2024 16:13:53 GMT
+    ETag: "1a7b-61fa7032eb356-gzip"
+    Accept-Ranges: bytes
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+    Content-Length: 1904
+    Content-Type: text/html
+    Keep-Alive: timeout=5, max=100
+    Connection: Keep-Alive
+Snippet starting at position 436
+Hintergrund
+In diesem Kapitel werden Sie die grundlegende Arbeitsfähigkeit
+für das Programmierpraktikum herstellen:
+
+Arbeitsumgebung installieren (soweit nicht schon vorhanden):
+eine Unix-artige Kommandozeilen-Arbeitsumgebung
+Python (das ist unsere H
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_requests [0;37m15:23:51 [44m 502 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-12-13 15:23:53+01:00 [COMMAND_EXIT_CODE="0"]

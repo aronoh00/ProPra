@@ -1,0 +1,32 @@
+Script started on 2024-12-13 15:37:48+01:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="150" LINES="29"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_requests [0;37m15:37:48 [44m 501 [40m
+$ [7mpython m_requests.py do_post  https://httpbin.org/anything '{"a": "wer A sagt", "b": 255}'[27m[C[Cpython m_requests.py do_post  https://httpbin.org/anything '{"a": "wer A sagt", "b": 255}'
+[?2004lHTTP Status: 200
+Antwort im JSON-Format:
+{
+    "args": {},
+    "data": "{\"a\": \"wer A sagt\", \"b\": 255}",
+    "files": {},
+    "form": {},
+    "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Content-Length": "29",
+        "Content-Type": "application/json",
+        "Host": "httpbin.org",
+        "User-Agent": "python-requests/2.32.3",
+        "X-Amzn-Trace-Id": "Root=1-675c46c2-594093886e449519781ac144"
+    },
+    "json": {
+        "a": "wer A sagt",
+        "b": 255
+    },
+    "method": "POST",
+    "origin": "188.193.159.39",
+    "url": "https://httpbin.org/anything"
+}
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/m_requests [0;37m15:37:54 [44m 502 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-12-13 15:37:58+01:00 [COMMAND_EXIT_CODE="0"]
