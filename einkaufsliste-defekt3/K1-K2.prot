@@ -1,0 +1,63 @@
+Script started on 2024-10-30 13:12:56+01:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="150" LINES="12"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/einkaufsliste-defekt3 [0;37m13:12:56 [44m 501 [40m
+$ python einkaufsliste/grocery_list.py
+[?2004l0: spaghetti bolognese
+1: chicken caesar salad
+2: vegetarian stir-fry
+3: margherita pizza
+4: shrimp scampi
+5: beef tacos
+6: minestrone soup
+7: chicken quesadillas
+8: salmon with lemon-dill sauce
+9: vegetable curry
+What are you shopping for? 5
+Here's your grocery list:
+===== breads/crackers =====
+tortillas, 8
+
+===== condiments =====
+salsa, 1/2 cup
+
+===== dairy =====
+cheddar cheese, 1 cup
+sour cream, 1/2 cup
+
+===== meat =====
+ground beef, 1 lb
+
+===== produce =====
+avocado, 1
+cilantro, 1/4 cup
+lettuce, 1 cup
+tomatoes, 2
+
+===== spices =====
+taco seasoning, 1 packet
+
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/einkaufsliste-defekt3 [0;37m13:13:11 [44m 502 [40m
+$ git -P show HEAD
+[?2004l[33mcommit 7885a8343291ae78cb8fe10063ee01ed8da05866[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Aron Huth <aronoh00@zedat.fu-berlin.de>
+Date:   Wed Oct 30 13:12:51 2024 +0100
+
+    einkaufsliste3
+
+[1mdiff --git a/einkaufsliste-defekt3/einkaufsliste/ingredients.json b/einkaufsliste-defekt3/einkaufsliste/ingredients.json[m
+[1mindex 44d07b8..14ff164 100644[m
+[1m--- a/einkaufsliste-defekt3/einkaufsliste/ingredients.json[m
+[1m+++ b/einkaufsliste-defekt3/einkaufsliste/ingredients.json[m
+[36m@@ -44,7 +44,7 @@[m
+     {"name": "red pepper flakes", "where": "spices"},[m
+     {"name": "romaine lettuce", "where": "produce"},[m
+     {"name": "salmon fillets", "where": "seafood"},[m
+[31m-    {"name": "Salsa", "where": "condiments"},[m
+[32m+[m[32m    {"name": "salsa", "where": "condiments"},[m
+     {"name": "salt", "where": "spices"},[m
+     {"name": "sesame oil", "where": "condiments/oils"},[m
+     {"name": "shrimp", "where": "seafood"},[m
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/einkaufsliste-defekt3 [0;37m13:13:22 [44m 503 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-10-30 13:13:28+01:00 [COMMAND_EXIT_CODE="0"]
