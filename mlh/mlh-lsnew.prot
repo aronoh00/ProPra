@@ -1,0 +1,18 @@
+Script started on 2024-12-15 15:06:42+01:00 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="150" LINES="13"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/mlh [0;37m15:06:42 [44m 501 [40m
+$ [7mpython mlh lsnew --age 365000d *.md[27m[C[Cpython mlh lsnew --age 365000d *.md
+[?2004l[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/mlh [0;37m15:06:50 [44m 502 [40m
+$ [7mtouch file2; sleep 5; touch file1; sleep 5; touch file3; python mlh lsnew --age 2s file?; echo; python mlh lsnew --age 7s file?; echo; python mlh ls[27m[7mn[27m[7mew --age 1m nonsense file?; rm file{1,2,3}[27m[A[C[Ctouch file2; sleep 5; touch file1; sleep 5; touch file3; python mlh lsnew --age 2s file?; echo; python mlh lsnew --age 7s file?; echo; python mlh lsnew --age 1m nonsense file?; rm file{1,2,3}
+[?2004l2024-12-15 15:07:18 file3
+
+2024-12-15 15:07:18 file3
+2024-12-15 15:07:13 file1
+
+2024-12-15 15:07:18 file3
+2024-12-15 15:07:13 file1
+2024-12-15 15:07:08 file2
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/mlh [0;37m15:07:19 [44m 503 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-12-15 15:07:22+01:00 [COMMAND_EXIT_CODE="0"]
