@@ -1,0 +1,23 @@
+Script started on 2024-12-15 16:56:30+01:00 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="156" LINES="10"]
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/beautifulsoup [0;37m16:56:30 [44m 501 [40m
+$ python beautifulsoup.py 
+[?2004l<span class="difficulty2" title="Difficulty: low">⚫︎</span>
+<span class="difficulty2" title="Difficulty: low">⚫︎</span>
+<span class="difficulty2" title="Difficulty: low">⚫︎</span>
+<span class="difficulty2" title="Difficulty: low">⚫︎</span>
+<span class="difficulty2" title="Difficulty: low">⚫︎</span>
+<span class="difficulty2" title="Difficulty: low">⚫︎</span>
+<span class="difficulty2" title="Difficulty: low">⚫︎</span>
+<span class="difficulty2" title="Difficulty: low">⚫︎</span>
+<span class="difficulty2" title="Difficulty: low">⚫︎</span>
+<span class="difficulty2" title="Difficulty: low">⚫︎</span>
+<span class="difficulty2" title="Difficulty: low">⚫︎</span>
+<span class="difficulty2" title="Difficulty: low">⚫︎</span>
+<span class="difficulty2" title="Difficulty: low">⚫︎</span>
+number of <span> tags declaring difficulty 1 or 2: 13
+Their total timevalue: 14.25
+[?2004h[0;36maron[0;31m@DESKTOP-K02S42U [0;32m~/ws/propra/beautifulsoup [0;37m16:56:40 [44m 502 [40m
+$ exit
+[?2004lexit
+
+Script done on 2024-12-15 16:56:41+01:00 [COMMAND_EXIT_CODE="0"]
